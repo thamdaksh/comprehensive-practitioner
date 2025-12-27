@@ -8,23 +8,18 @@ import {
 } from "./ui/Card";
 import { Button } from "@headlessui/react";
 import { BookOpenIcon, AcademicCapIcon } from "@heroicons/react/24/outline";
-import { useState } from "react";
-import { ExamMode, MockTestModal } from "./MockTestModal";
-import type { QuestionRangeType } from "./MockTestModal";
-import { totalQuestions } from "../data/questions";
+import { MockTestModal } from "./MockTestModal";
 import { Layout, type LayoutType } from "./layout/Main";
+import { useState } from "react";
 
 type HomeProps = {
-  setLayout: (value: LayoutType) => void;
+  setLayout: (layout: LayoutType) =>void
+  onStartTest: (mode: string, from: number, to: number) => void;
 };
 
-export const Home = ({ setLayout }: HomeProps) => {
+export const Home = ({ setLayout, onStartTest }: HomeProps) => {
   const [isMockTestModalOpen, setIsMockTestModalOpen] = useState(false);
-  const [examMode, setExamMode] = useState(ExamMode.Random);
-  const [questionRange, setQuestionRange] = useState<QuestionRangeType>({
-    from: 1,
-    to: totalQuestions,
-  });
+
   return (
     <>
       <Card className="md:w-90 lg:w-full">
@@ -84,11 +79,7 @@ export const Home = ({ setLayout }: HomeProps) => {
       <MockTestModal
         isOpen={isMockTestModalOpen}
         setIsOpen={setIsMockTestModalOpen}
-        mode={examMode}
-        setMode={setExamMode}
-        range={questionRange}
-        setRange={setQuestionRange}
-        setCurrentLayout={setLayout}
+        onStartTest={onStartTest}
       />
     </>
   );

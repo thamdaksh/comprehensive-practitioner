@@ -3,6 +3,7 @@ import type { Question } from "../data/questions";
 import { Button } from "@headlessui/react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/16/solid";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/Card";
+import { scrollToTop } from "../utils/utils";
 
 interface PracticeProps {
     questions: Question[];
@@ -21,12 +22,14 @@ const [currentPage, setCurrentPage] = useState(1);
   const goToNextPage = () => {
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
+      scrollToTop();
     }
   };
 
   const goToPreviousPage = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
+      scrollToTop();
     }
   };
 

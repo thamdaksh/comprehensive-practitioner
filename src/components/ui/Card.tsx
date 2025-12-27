@@ -25,8 +25,8 @@ export function CardTitle({ children, className = "" }: CardProps) {
   return <div className={`${className}`}>{children}</div>;
 }
 
-export function CardContent({ children }: { children: ReactNode }) {
-  return <div>{children}</div>;
+export function CardContent({ children, className = "" }: CardProps) {
+  return <div className={`${className}`}>{children}</div>;
 }
 
 export function CardDescription({ children }: { children: ReactNode }) {

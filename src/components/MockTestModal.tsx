@@ -11,8 +11,7 @@ import {
   RadioGroup,
 } from "@headlessui/react";
 import { totalQuestions } from "../data/questions";
-import type { Dispatch, SetStateAction } from "react";
-import { Layout } from "./layout/Main";
+import { useState } from "react";
 
 export const ExamMode = {
   Random: "Random",
@@ -23,34 +22,29 @@ export type ExamModeType = (typeof ExamMode)[keyof typeof ExamMode];
 
 export const ExamModeValues = Object.values(ExamMode);
 
-export type QuestionRangeType = {
-  from: number;
-  to: number;
-};
-
 type MockTestModalProps = {
   isOpen: boolean;
   setIsOpen: (value: boolean) => void;
-  mode: ExamModeType;
-  setMode: (value: ExamModeType) => void;
-  range: QuestionRangeType;
-  setRange: Dispatch<SetStateAction<QuestionRangeType>>;
-  setCurrentLayout: (value: string) => void;
+  onStartTest: (mode: string, from: number, to: number) => void;
 };
 
 export const MockTestModal = ({
   isOpen,
   setIsOpen,
-  mode,
-  setMode,
-  range,
-  setRange,
-  setCurrentLayout,
+  onStartTest
 }: MockTestModalProps) => {
-  const updateRange = (key: keyof QuestionRangeType, value: number) => {
-    setRange((prev: QuestionRangeType) => ({ ...prev, [key]: value }));
-  };
+  const[mode, setMode] = useState<ExamModeType>(ExamMode.Random);
 
+  const [fromQuestion, setFromQuestion] = useState(1);
+  const [toQuestion, setToQuestion] = useState(totalQuestions);
+
+
+  const handleStartTest = () => {
+    if (fromQuestion >= 1 && toQuestion <= totalQuestions && fromQuestion <= toQuestion) {
+      onStartTest(mode, fromQuestion, toQuestion);
+    }
+  }
+  
   return (
     <Dialog
       open={isOpen}
@@ -99,9 +93,9 @@ export const MockTestModal = ({
                       id="from"
                       type="number"
                       min={1}
-                      value={range.from}
-                      max={totalQuestions + 10}
-                      onChange={(e) => updateRange("from", +e.target.value)}
+                      value={fromQuestion}
+                      max={totalQuestions - 10}
+                      onChange={(e) => setFromQuestion(Number(e.target.value))}
                       className="mt-1 w-30 border border-gray-500 rounded-sm mx-1 p-1"
                     />
                   </Field>
@@ -117,10 +111,10 @@ export const MockTestModal = ({
                     <Input
                       id="to"
                       type="number"
-                      min={range.from + 10}
-                      value={range.to}
+                      min={fromQuestion + 10}
+                      value={toQuestion}
                       max={totalQuestions}
-                      onChange={(e) => updateRange("to", +e.target.value)}
+                      onChange={(e) => setToQuestion(Number(e.target.value))}
                       className="mt-1 w-30 border border-gray-500 rounded-sm mx-1 p-1"
                     />
                   </Field>
@@ -140,7 +134,7 @@ export const MockTestModal = ({
             </Button>
             <Button
               className="w-full h-10 rounded-[1vw] bg-primary text-primary-foreground hover:bg-primary/90"
-              onClick={() => setCurrentLayout(Layout.Test)}
+              onClick={handleStartTest}
             >
               Start Test
             </Button>

@@ -15,7 +15,6 @@ export const Footer = () => {
             Made by <span className="font-semibold">thamdhaksh</span>
           </p>
           <p className="mt-1">Once a VITian, Always a VITian!</p>
-          <p className="mt-2">Strictly for education purpose only</p>
         </div>
       </div>
     </footer>
