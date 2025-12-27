@@ -118,7 +118,7 @@ export const Test = ({
   }
 
   return (
-    <div className="w-full max-w-2xl mx-auto p-4 space-y-6">
+    <div className="w-full flex-grow max-w-2xl mx-auto p-4 space-y-6">
       <div className="flex items-center justify-between">
         <Button
           onClick={onBack}
@@ -132,7 +132,7 @@ export const Test = ({
         </div>
       </div>
 
-      <Card className="p-4">
+      <Card className="p-4 mt-18">
         <CardHeader>
           <CardTitle className="flex items-center justify-center font-bold">
             Question {currentQuestionIndex + 1}
@@ -154,12 +154,7 @@ export const Test = ({
                 <Radio
                   key={index}
                   value={index.toString()}
-                  className="
-          group flex cursor-pointer items-center space-x-3 rounded-lg border p-3
-          hover:bg-muted/50
-          data-[checked]:border-blue-500
-          data-[checked]:bg-blue-50
-        "
+                  className="group flex cursor-pointer items-center space-x-3 rounded-lg border p-3 hover:bg-muted/50 text-foreground data-[checked]:border-blue-500 data-[checked]:bg-blue-50 data-[checked]:text-blue-900 dark:border-muted dark:hover:bg-muted/30 dark:data-[checked]:bg-blue-950 dark:data-[checked]:text-blue-100"
                 >
                   <span className="flex-1">
                     <span className="font-medium mr-2">

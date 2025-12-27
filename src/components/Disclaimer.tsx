@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 
 export const Disclaimer = () => {
     return(
-         <Card className="md:w-90 lg:w-full">
+        <Card className="w-full">
         <CardHeader>
           <CardTitle className="flex items-center justify-center">
             <div className="flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 group-hover:bg-primary/20 transition-colors">

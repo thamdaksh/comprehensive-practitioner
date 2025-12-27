@@ -65,7 +65,7 @@ export const MockTestModal = ({
           </Description>
           <div className="space-y-6 py-4">
             <div className="space-y-3">
-              <h5>Test Mode</h5>
+              <h5 className="font-bold">Test Mode</h5>
               <RadioGroup value={mode} onChange={setMode}>
                 {ExamModeValues.map((examMode) => (
                   <Field key={examMode} className="flex items-center gap-2">
@@ -79,7 +79,7 @@ export const MockTestModal = ({
               </RadioGroup>
             </div>
             <div className="space-y-3">
-              <h5>Question Range</h5>
+              <h5 className="font-bold">Question Range</h5>
               <div className="flex items-center">
                 <div>
                   <Field>
