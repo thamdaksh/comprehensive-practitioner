@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { Question } from "../data/questions";
-import { Button } from "@headlessui/react";
+import { Button, Field, Input } from "@headlessui/react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/16/solid";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/Card";
 import { scrollToTop } from "../utils/utils";
@@ -32,6 +32,12 @@ export const Practice = ({ questions, onBack }: PracticeProps) => {
       scrollToTop();
     }
   };
+  const goToPage = (pageNumber: number) => {
+    if (pageNumber >= 1 && pageNumber <= totalPages) {
+      setCurrentPage(pageNumber);
+      scrollToTop();
+    }
+  };
 
   return (
     <div className="w-full max-w-4xl mx-auto p-4 space-y-6">
@@ -56,7 +62,11 @@ export const Practice = ({ questions, onBack }: PracticeProps) => {
                 <span className="font-semibold">
                   Question {startIndex + index + 1}:
                 </span>{" "}
-                {q.isQuestionContainsCoding ? <pre>{q.question}</pre> : <p>{q.question}</p>}
+                {q.isQuestionContainsCoding ? (
+                  <pre>{q.question}</pre>
+                ) : (
+                  <p>{q.question}</p>
+                )}
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -97,6 +107,21 @@ export const Practice = ({ questions, onBack }: PracticeProps) => {
         </Button>
 
         <div className="text-sm text-muted-foreground">
+          <div>
+            <Field>
+              <Input
+                id="goto"
+                type="number"
+                min={1}
+                value={currentPage}
+                max={totalPages}
+                onChange={(event) =>
+                  goToPage(Number(event.currentTarget.value))
+                }
+                className="h-8 pl-2 w-20 border border-gray-500 rounded-md text-center mb-1"
+              />
+            </Field>
+          </div>
           Page {currentPage} of {totalPages}
         </div>
 
