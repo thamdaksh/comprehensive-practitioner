@@ -87,7 +87,7 @@ export const Test = ({
                     }`}
                   >
                     <p className="font-medium mb-2">
-                      Q{index + 1}: {q.question}
+                      Q{index + 1}: {q.isQuestionContainsCoding ? <pre>{q.question}</pre> : <p>{q.question}</p>}
                     </p>
                     <p className="text-sm">
                       Your answer:{" "}
@@ -139,7 +139,7 @@ export const Test = ({
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
-          <p className="text-lg">{currentQuestion.question}</p>
+          {currentQuestion.isQuestionContainsCoding ? <pre className="text-lg">{currentQuestion.question}</pre> : <p className="text-lg">{currentQuestion.question}</p>}
 
           <RadioGroup
             value={

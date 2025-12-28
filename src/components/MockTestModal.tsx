@@ -31,20 +31,27 @@ type MockTestModalProps = {
 export const MockTestModal = ({
   isOpen,
   setIsOpen,
-  onStartTest
+  onStartTest,
 }: MockTestModalProps) => {
-  const[mode, setMode] = useState<ExamModeType>(ExamMode.Random);
+  const [mode, setMode] = useState<ExamModeType>(ExamMode.Random);
 
   const [fromQuestion, setFromQuestion] = useState(1);
   const [toQuestion, setToQuestion] = useState(totalQuestions);
 
-
   const handleStartTest = () => {
-    if (fromQuestion >= 1 && toQuestion <= totalQuestions && fromQuestion <= toQuestion) {
+    if (
+      fromQuestion >= 1 &&
+      toQuestion <= totalQuestions &&
+      fromQuestion <= toQuestion
+    ) {
       onStartTest(mode, fromQuestion, toQuestion);
     }
+  };
+
+  const disableStartTest = () => {
+    return !(fromQuestion > 0 && toQuestion <= totalQuestions) && (toQuestion - fromQuestion > 0);
   }
-  
+
   return (
     <Dialog
       open={isOpen}
@@ -73,7 +80,12 @@ export const MockTestModal = ({
                       value={examMode}
                       className="group flex size-5 items-center justify-center rounded-full border bg-white data-checked:bg-blue-400"
                     ></Radio>
-                    <Label>{examMode}</Label>
+                    <Label>
+                      {examMode}
+                      {examMode === ExamMode.Random &&
+                        (toQuestion - fromQuestion) > 100 &&
+                        " (100 questions)"}
+                    </Label>
                   </Field>
                 ))}
               </RadioGroup>
@@ -133,7 +145,12 @@ export const MockTestModal = ({
               Cancel
             </Button>
             <Button
-              className="w-full h-10 rounded-[1vw] bg-primary text-primary-foreground hover:bg-primary/90"
+              className={`w-full h-10 rounded-[1vw] text-primary-foreground ${
+  disableStartTest()
+    ? "bg-red-500 hover:bg-red-600"
+    : "bg-green-500 hover:bg-green-600"
+}`}
+              disabled={disableStartTest()}
               onClick={handleStartTest}
             >
               Start Test

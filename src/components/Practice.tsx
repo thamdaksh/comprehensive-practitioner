@@ -6,12 +6,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/Card";
 import { scrollToTop } from "../utils/utils";
 
 interface PracticeProps {
-    questions: Question[];
-    onBack: () => void;
+  questions: Question[];
+  onBack: () => void;
 }
 
 export const Practice = ({ questions, onBack }: PracticeProps) => {
-const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
 
   const totalPages = Math.ceil(questions.length / itemsPerPage);
@@ -36,7 +36,10 @@ const [currentPage, setCurrentPage] = useState(1);
   return (
     <div className="w-full max-w-4xl mx-auto p-4 space-y-6">
       <div className="flex items-center justify-between">
-        <Button onClick={onBack} className="flex items-center rounded-xl border p-2 bg-primary text-primary-foreground hover:bg-primary/90">
+        <Button
+          onClick={onBack}
+          className="flex items-center rounded-xl border p-2 bg-primary text-primary-foreground hover:bg-primary/90"
+        >
           <ChevronLeftIcon className="size-4" />
           <p className="mr-2">Back to Home</p>
         </Button>
@@ -50,7 +53,10 @@ const [currentPage, setCurrentPage] = useState(1);
           <Card key={q.id} className="p-2 mb-5">
             <CardHeader>
               <CardTitle className="p-3">
-                <span className="font-semibold">Question {startIndex + index + 1}:</span> {q.question}
+                <span className="font-semibold">
+                  Question {startIndex + index + 1}:
+                </span>{" "}
+                {q.isQuestionContainsCoding ? <pre>{q.question}</pre> : <p>{q.question}</p>}
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -81,19 +87,21 @@ const [currentPage, setCurrentPage] = useState(1);
       </div>
 
       <div className="flex items-center justify-between">
-        <Button className="flex items-center rounded-xl border p-2 bg-primary text-primary-foreground hover:bg-primary/90"
+        <Button
+          className="flex items-center rounded-xl border p-2 bg-primary text-primary-foreground hover:bg-primary/90"
           onClick={goToPreviousPage}
           disabled={currentPage === 1}
         >
           <ChevronLeftIcon className="size-4" />
           <p className="mr-2">Previous</p>
         </Button>
-        
+
         <div className="text-sm text-muted-foreground">
           Page {currentPage} of {totalPages}
         </div>
 
-        <Button className="flex items-center rounded-xl border p-2 bg-primary text-primary-foreground hover:bg-primary/90"
+        <Button
+          className="flex items-center rounded-xl border p-2 bg-primary text-primary-foreground hover:bg-primary/90"
           onClick={goToNextPage}
           disabled={currentPage === totalPages}
         >
@@ -103,4 +111,4 @@ const [currentPage, setCurrentPage] = useState(1);
       </div>
     </div>
   );
-}
+};

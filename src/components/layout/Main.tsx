@@ -24,7 +24,8 @@ export const Main = () => {
     
     if (testMode === ExamMode.Random) {
       const shuffled = [...selectedQuestions].sort(() => Math.random() - 0.5);
-      setMockTestQuestions(shuffled);
+      const top100Questions = shuffled.length > 100 ? shuffled.slice(0, 100) : shuffled;
+      setMockTestQuestions(top100Questions);
     } else {
       setMockTestQuestions(selectedQuestions);
     }

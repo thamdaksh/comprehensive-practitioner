@@ -3,6 +3,7 @@ export interface Question {
   question: string;
   options: string[];
   correctOptionIndex: number;
+  isQuestionContainsCoding?: boolean;
 }
 
 export const questions: Question[] = [
@@ -1467,9 +1468,10 @@ B b2 = new B();
 System.out.println(b2.count); } }`,
     options: ["100", "101", "3", "error"],
     correctOptionIndex: 1,
+    isQuestionContainsCoding: true
   },
   {
-    id: 167,
+    id: 168,
     question: `What will be the Output?
 class Animal
 {
@@ -1496,9 +1498,10 @@ System.out.println(an.name+" "+an.makeNoise());
       "dog generic noise",
     ],
     correctOptionIndex: 1,
+    isQuestionContainsCoding: true
   },
   {
-    id: 168,
+    id: 169,
     question: `When a thread terminates its processing, into what state that thread enters?`,
     options: [
       "Running state",
@@ -1509,13 +1512,13 @@ System.out.println(an.name+" "+an.makeNoise());
     correctOptionIndex: 3,
   },
   {
-    id: 169,
+    id: 170,
     question: `Which of these interface declares core method that all collections will have?`,
     options: ["set", "EventListner", "Comparator", "Collection"],
     correctOptionIndex: 3,
   },
   {
-    id: 170,
+    id: 171,
     question: `"Is the requirement properly understood?",relates to _________`,
     options: [
       "Traceability",
@@ -1526,7 +1529,7 @@ System.out.println(an.name+" "+an.makeNoise());
     correctOptionIndex: 1,
   },
   {
-    id: 171,
+    id: 172,
     question: `"Can the requirement be changed without a large impact on other requirements?",is related to _______`,
     options: [
       "Comprehensibility",
@@ -1537,7 +1540,7 @@ System.out.println(an.name+" "+an.makeNoise());
     correctOptionIndex: 2,
   },
   {
-    id: 172,
+    id: 173,
     question: `"Is the origin of the requirement clearly stated?" relates to _________`,
     options: [
       "Traceability",
@@ -1548,7 +1551,7 @@ System.out.println(an.name+" "+an.makeNoise());
     correctOptionIndex: 0,
   },
   {
-    id: 173,
+    id: 174,
     question: `#include <iostream>
 using namespace std;
 int main ()
@@ -1558,9 +1561,10 @@ return 0;
 }`,
     options: ["0", "1", "error", "10"],
     correctOptionIndex: 0,
+    isQuestionContainsCoding: true
   },
   {
-    id: 174,
+    id: 175,
     question: `Inheritance is a way to`,
     options: [
       "pass arguments and improve data hiding",
@@ -1571,7 +1575,7 @@ return 0;
     correctOptionIndex: 1,
   },
   {
-    id: 175,
+    id: 176,
     question: `Operator overloading is`,
     options: [
       "making C++ operators work with objects",
@@ -1582,13 +1586,13 @@ return 0;
     correctOptionIndex: 3,
   },
   {
-    id: 176,
+    id: 177,
     question: `A data structure where elements can be added or removed at either end but not in the middle`,
     options: ["Linked lists", "Stacks", "Queues", "Deque"],
     correctOptionIndex: 3,
   },
   {
-    id: 177,
+    id: 178,
     question: `In a extended-binary tree nodes with 2 children are called _________`,
     options: [
       "Interior Node",
@@ -1599,7 +1603,7 @@ return 0;
     correctOptionIndex: 2,
   },
   {
-    id: 178,
+    id: 179,
     question: `Which of the following statements are true?`,
     options: [
       "Shortest remaining time first scheduling may cause starvation",
@@ -1610,7 +1614,7 @@ return 0;
     correctOptionIndex: 3,
   },
   {
-    id: 179,
+    id: 180,
     question: `___________ contains the 8-bit opcode currently being executed.`,
     options: [
       "Memory Address Register",
@@ -1621,13 +1625,13 @@ return 0;
     correctOptionIndex: 1,
   },
   {
-    id: 180,
+    id: 181,
     question: `A binary digit is called a`,
     options: ["Bit", "Byte", "Number", "Character"],
     correctOptionIndex: 0,
   },
   {
-    id: 181,
+    id: 182,
     question: `A page fault`,
     options: [
       "Occurs when there is an error in a specific page",
@@ -1638,7 +1642,7 @@ return 0;
     correctOptionIndex: 2,
   },
   {
-    id: 182,
+    id: 183,
     question: `A solution to the problem of external fragmentation is :`,
     options: [
       "compaction",
@@ -1649,7 +1653,7 @@ return 0;
     correctOptionIndex: 0,
   },
   {
-    id: 183,
+    id: 184,
     question: `A Stack-organised Computer uses instruction of`,
     options: [
       "Indirect addressing",
@@ -1660,7 +1664,7 @@ return 0;
     correctOptionIndex: 2,
   },
   {
-    id: 184,
+    id: 185,
     question: `An address in main memory is called`,
     options: [
       "Physical address",
@@ -1671,13 +1675,13 @@ return 0;
     correctOptionIndex: 0,
   },
   {
-    id: 185,
+    id: 186,
     question: `An interface that provides I/O transfer of data directly to and form the memory unit and peripheral is termed as`,
     options: ["DDA", "Serial interface", "BR", "DMA"],
     correctOptionIndex: 3,
   },
   {
-    id: 186,
+    id: 187,
     question: `Assembly language`,
     options: [
       "uses alphabetic codes in place of binary numbers used in machine language",
@@ -1688,13 +1692,13 @@ return 0;
     correctOptionIndex: 0,
   },
   {
-    id: 187,
+    id: 188,
     question: `BAT refers to _________`,
     options: ["Boot Files", "Batch Files", "Executable Files", "None"],
     correctOptionIndex: 1,
   },
   {
-    id: 188,
+    id: 189,
     question: `can be represented in a signed magnitude format and in a 1's complement format as`,
     options: [
       "100100 & 011011",
@@ -1705,7 +1709,7 @@ return 0;
     correctOptionIndex: 3,
   },
   {
-    id: 189,
+    id: 190,
     question: `Content of the program counter is added to the address part of the instruction in order to obtain the effective address is called.`,
     options: [
       "relative address mode",
@@ -1716,19 +1720,19 @@ return 0;
     correctOptionIndex: 0,
   },
   {
-    id: 190,
+    id: 191,
     question: `If the main memory is of 8K bytes and the cache memory is of 2K words. It uses associative mapping. Then each word of cache memory shall be`,
     options: ["11 bits", "21 bits", "16 bits", "20 bits"],
     correctOptionIndex: 2,
   },
   {
-    id: 191,
+    id: 192,
     question: `If the value V(x) of the target operand is contained in the address field itself, the addressing mode is`,
     options: ["immediate", "direct", "indirect", "implied"],
     correctOptionIndex: 1,
   },
   {
-    id: 192,
+    id: 193,
     question: `In a vectored interrupt`,
     options: [
       "the branch address is assigned to a fixed location in memory",
@@ -1739,7 +1743,7 @@ return 0;
     correctOptionIndex: 1,
   },
   {
-    id: 193,
+    id: 194,
     question: `In FIFO page replacement algorithm, when a page must be replaced:`,
     options: [
       "random page is chosen",
@@ -1750,13 +1754,13 @@ return 0;
     correctOptionIndex: 2,
   },
   {
-    id: 194,
+    id: 195,
     question: `Memory management technique in which system stores and retrieves data from secondary storage for use in main memory is called`,
     options: ["fragmentation", "paging", "mapping", "starvation"],
     correctOptionIndex: 1,
   },
   {
-    id: 195,
+    id: 196,
     question: `Requirements which are a consequence of organisational policies and procedures are termed as_______`,
     options: [
       "product requirement",
@@ -1767,7 +1771,7 @@ return 0;
     correctOptionIndex: 3,
   },
   {
-    id: 196,
+    id: 197,
     question: `Routine is not loaded until it is called. All routines are kept on disk in a relocatable load format. The main program is loaded into memory & is executed. This type of loading is called ________ ?`,
     options: [
       "Static loading",
@@ -1778,13 +1782,13 @@ return 0;
     correctOptionIndex: 2,
   },
   {
-    id: 197,
+    id: 198,
     question: `Status bit is also called`,
     options: ["Binary bit", "Flag bit", "Signed bit", "Unsigned bit"],
     correctOptionIndex: 1,
   },
   {
-    id: 198,
+    id: 199,
     question: `Swap space exists in:`,
     options: [
       "CPU",
@@ -1795,7 +1799,7 @@ return 0;
     correctOptionIndex: 1,
   },
   {
-    id: 199,
+    id: 200,
     question: `The address of a page table in memory is pointed by:`,
     options: [
       "stack pointer",
@@ -1806,7 +1810,7 @@ return 0;
     correctOptionIndex: 1,
   },
   {
-    id: 200,
+    id: 201,
     question: `The FIFO algorithm`,
     options: [
       "executes first the job that last entered the queue",
