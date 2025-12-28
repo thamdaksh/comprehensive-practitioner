@@ -1227,20 +1227,17 @@ export const questions: Question[] = [
     ],
     correctOptionIndex: 0,
   },
-    {
+  {
     id: 143,
-    question: "The addressing mode used in an instruction of the form ADD X Y, is _____.",
-    options: [
-      "Absolute",
-      "Indirect",
-      "indexed",
-      "base addressed",
-    ],
+    question:
+      "The addressing mode used in an instruction of the form ADD X Y, is _____.",
+    options: ["Absolute", "Indirect", "indexed", "base addressed"],
     correctOptionIndex: 0,
   },
-    {
+  {
     id: 144,
-    question: "The amount of time required to read a block of data from a disk into memory is composed of seek time, rotational latency, and transfer time. Rotational latency refers to ______.",
+    question:
+      "The amount of time required to read a block of data from a disk into memory is composed of seek time, rotational latency, and transfer time. Rotational latency refers to ______.",
     options: [
       "the time takes for the platter to make a full rotation",
       "the time it takes for the read-write head to move into position over the appropriate track",
@@ -1249,29 +1246,20 @@ export const questions: Question[] = [
     ],
     correctOptionIndex: 0,
   },
-    {
+  {
     id: 145,
-    question: "The average time required to reach a storage location in memory and obtain its contents is called the _____.",
-    options: [
-      "seek time",
-      "turn around time",
-      "access time",
-      "transfer time",
-    ],
+    question:
+      "The average time required to reach a storage location in memory and obtain its contents is called the _____.",
+    options: ["seek time", "turn around time", "access time", "transfer time"],
     correctOptionIndex: 2,
   },
-    {
+  {
     id: 146,
     question: "The circuit converting binary data in to decimal is_____.",
-    options: [
-      "Encoder",
-      "Decoder",
-      "Muitiplexer",
-      "Code converter",
-    ],
+    options: ["Encoder", "Decoder", "Muitiplexer", "Code converter"],
     correctOptionIndex: 3,
   },
-    {
+  {
     id: 147,
     question: "To put the microprocessor in the wait state",
     options: [
@@ -1282,38 +1270,551 @@ export const questions: Question[] = [
     ],
     correctOptionIndex: 1,
   },
-    {
+  {
     id: 148,
     question: "Translation from symbolic program into Binary is done in_____.",
-    options: [
-      "Two passes",
-      "Three passes",
-      "Four passes",
-      "Five passes",
-    ],
+    options: ["Two passes", "Three passes", "Four passes", "Five passes"],
     correctOptionIndex: 0,
   },
-    {
+  {
     id: 149,
     question: "Von Neumann architecture is ______.",
+    options: ["SISD", "SIMD", "MISD", "MIMD"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 150,
+    question:
+      "What characteristic of RAM memory makes it not suitable for permanent storage?",
+    options: ["too slow", "unreliable", "it is volatile", "too bulky"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 151,
+    question: "Which of the following is not a weighted code?",
     options: [
-      "SISD",
-      "SIMD",
-      "MISD",
-      "MIMD",
+      "Decimal Number system",
+      "Excess 3-code",
+      "Binary number system",
+      "None of these",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 152,
+    question: "A three input NOR gate gives logic high output only when_____.",
+    options: [
+      "one input is high",
+      "one input is low",
+      "two input are low",
+      "all input are low",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 153,
+    question:
+      "An instruction used to set the carry flag in a computer can be classified as",
+    options: ["Data transfer", "Program Control", "Logical", "Arithmetic"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 154,
+    question: "Assembly language ________.",
+    options: [
+      "uses alphabetic codes in place of binary numbers used in machine language",
+      "is the easiest language to write programs",
+      "need not be translated into machine language",
+      "None of these",
     ],
     correctOptionIndex: 0,
   },
-    {
-    id: 150,
-    question: "What characteristic of RAM memory makes it not suitable for permanent storage?",
+  {
+    id: 155,
+    question: `Which two are valid constructors for Thread?
+Thread(Runnable r, String name)
+Thread()
+Thread(int priority)
+Thread(Runnable r, ThreadGroup g)
+Thread(Runnable r, int priority)`,
+    options: ["1 and 3", "2 and 4", "1 and 2", "2 and 5"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 156,
+    question: `class can have many methods with the same name as long as the number of parameters or type of parameters is different. This OOP concept is known as`,
     options: [
-      "too slow",
-      "unreliable",
-      "it is volatile",
-      "too bulky",
+      "Method Invocating",
+      "Method Overloading",
+      "Method Overriding",
+      "Method labeling",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 157,
+    question: `Which of the following is considered as a blue print that defines the variables and methods common to all of its objects of a specific kind?`,
+    options: ["object", "class", "method", "data type"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 158,
+    question: `What will be printed as the output of the following program?
+public class testincr
+{
+public static void main(String args[])
+{
+int i = 0;
+i = i++ + i;
+System.out.println("I = " +i);
+}
+}`,
+    options: ["I = 0", "I = 1", "I = 2", "I = 3"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 159,
+    question: `count stands for`,
+    options: [
+      "class output",
+      "character output",
+      "common output",
+      "call output",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 160,
+    question: `R has n tuples and S has m tuples, then the Cartesian product of R and S will produce ___________ tuples.`,
+    options: ["n+m", "n*m", "n/m", "n-m"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 161,
+    question: `Inline functions are invoked at the time of`,
+    options: [
+      "Run time",
+      "Compile time",
+      "Depends on how it is invoked",
+      "Both b and c above",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 162,
+    question: `Master slave flipflop can be constructed with`,
+    options: ["SR Latch", "adder", "JK flipflop", "multiplier"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 163,
+    question: `Minterms are also called`,
+    options: [
+      "standard sum",
+      "standard product",
+      "standard division",
+      "standard subtraction",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 164,
+    question: `Voltage operated circuits represent`,
+    options: [
+      "Decimal variables",
+      "Hexadecimal variables",
+      "Binary variables",
+      "Octa variables",
     ],
     correctOptionIndex: 2,
+  },
+  {
+    id: 165,
+    question: `What is the meaning of the return data type void?`,
+    options: [
+      "An empty memory space is returned so that the developers can utilize it.",
+      "void returns no data type.",
+      "void is not supported in Java",
+      "None of the above",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 166,
+    question: `What is the stored in the object obj in following lines of code? box obj;`,
+    options: [
+      "Memory address of allocated memory.",
+      "NULL",
+      "Any arbitrary pointer",
+      "Garbage",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 167,
+    question: `What will be the output of the following program?
+class B
+{
+static int count = 100;
+public void increment()
+{
+count++; }
+public static void main(String []args)
+{
+B b1 = new B();
+b1.increment();
+B b2 = new B();
+System.out.println(b2.count); } }`,
+    options: ["100", "101", "3", "error"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 167,
+    question: `What will be the Output?
+class Animal
+{
+String name = "animal";
+String makeNoise() { return "generic noise"; }
+}
+class Dog extends Animal
+{
+String name = "dog";
+String makeNoise() { return "bark"; }
+}
+public class Test
+{
+public static void main(String[] args)
+{
+}
+Animal an = new Dog();
+System.out.println(an.name+" "+an.makeNoise());
+}`,
+    options: [
+      "animal generic noise",
+      "animal bark",
+      "dog bark",
+      "dog generic noise",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 168,
+    question: `When a thread terminates its processing, into what state that thread enters?`,
+    options: [
+      "Running state",
+      "Waiting state",
+      "Beginning state",
+      "Dead state",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 169,
+    question: `Which of these interface declares core method that all collections will have?`,
+    options: ["set", "EventListner", "Comparator", "Collection"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 170,
+    question: `"Is the requirement properly understood?",relates to _________`,
+    options: [
+      "Traceability",
+      "Comprehensibility",
+      "Adaptability",
+      "Verifiability",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 171,
+    question: `"Can the requirement be changed without a large impact on other requirements?",is related to _______`,
+    options: [
+      "Comprehensibility",
+      "Verifiability",
+      "Adaptability",
+      "Traceability",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 172,
+    question: `"Is the origin of the requirement clearly stated?" relates to _________`,
+    options: [
+      "Traceability",
+      "Verifiability",
+      "Adaptability",
+      "Comprehensibility",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 173,
+    question: `#include <iostream>
+using namespace std;
+int main ()
+{
+cout << (3 > 4 && 3 > 1) << endl;
+return 0;
+}`,
+    options: ["0", "1", "error", "10"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 174,
+    question: `Inheritance is a way to`,
+    options: [
+      "pass arguments and improve data hiding",
+      "pass arguments and add features to existing classes without rewriting them",
+      "make general classes into more specific classes and add features to existing classes without rewriting them",
+      "improve data hiding and encapsulation.",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 175,
+    question: `Operator overloading is`,
+    options: [
+      "making C++ operators work with objects",
+      "giving new meaning to existing C++ operators",
+      "making new C++ operators",
+      "both (a) and (b)",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 176,
+    question: `A data structure where elements can be added or removed at either end but not in the middle`,
+    options: ["Linked lists", "Stacks", "Queues", "Deque"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 177,
+    question: `In a extended-binary tree nodes with 2 children are called _________`,
+    options: [
+      "Interior Node",
+      "Domestic Node",
+      "Internal Node",
+      "Internal Node",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 178,
+    question: `Which of the following statements are true?`,
+    options: [
+      "Shortest remaining time first scheduling may cause starvation",
+      "Starvation may be caused by preemptive scheduling.",
+      "In terms of response time robin round is better than FCFS",
+      "All of the above statements are true",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 179,
+    question: `___________ contains the 8-bit opcode currently being executed.`,
+    options: [
+      "Memory Address Register",
+      "Instruction Register",
+      "Memory Buffer Register",
+      "Program Pointer",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 180,
+    question: `A binary digit is called a`,
+    options: ["Bit", "Byte", "Number", "Character"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 181,
+    question: `A page fault`,
+    options: [
+      "Occurs when there is an error in a specific page",
+      "Occurs when a program accesses a page of main memory",
+      "Occurs when a program accesses a page not currently in main memory",
+      "Occurs when a program accesses a page belonging to another program.",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 182,
+    question: `A solution to the problem of external fragmentation is :`,
+    options: [
+      "compaction",
+      "smaller memory space",
+      "larger memory space",
+      "None of these",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 183,
+    question: `A Stack-organised Computer uses instruction of`,
+    options: [
+      "Indirect addressing",
+      "Two-addressing",
+      "Zero addressing",
+      "Index addressing",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 184,
+    question: `An address in main memory is called`,
+    options: [
+      "Physical address",
+      "Memory address",
+      "Logical address",
+      "Word address",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 185,
+    question: `An interface that provides I/O transfer of data directly to and form the memory unit and peripheral is termed as`,
+    options: ["DDA", "Serial interface", "BR", "DMA"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 186,
+    question: `Assembly language`,
+    options: [
+      "uses alphabetic codes in place of binary numbers used in machine language",
+      "is the easiest language to write programs",
+      "need not be translated into machine language",
+      "is the easiest language to solve problems",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 187,
+    question: `BAT refers to _________`,
+    options: ["Boot Files", "Batch Files", "Executable Files", "None"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 188,
+    question: `can be represented in a signed magnitude format and in a 1's complement format as`,
+    options: [
+      "100100 & 011011",
+      "100100 & 111011",
+      "011011 & 100100",
+      "111011 & 100100",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 189,
+    question: `Content of the program counter is added to the address part of the instruction in order to obtain the effective address is called.`,
+    options: [
+      "relative address mode",
+      "implied mode",
+      "index addressing mode",
+      "register mode",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 190,
+    question: `If the main memory is of 8K bytes and the cache memory is of 2K words. It uses associative mapping. Then each word of cache memory shall be`,
+    options: ["11 bits", "21 bits", "16 bits", "20 bits"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 191,
+    question: `If the value V(x) of the target operand is contained in the address field itself, the addressing mode is`,
+    options: ["immediate", "direct", "indirect", "implied"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 192,
+    question: `In a vectored interrupt`,
+    options: [
+      "the branch address is assigned to a fixed location in memory",
+      "the interrupting source supplies the branch information to the processor through an interrupt vector",
+      "the branch address is obtained from a register in the processor",
+      "the branch address is obtained from a register in the processor",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 193,
+    question: `In FIFO page replacement algorithm, when a page must be replaced:`,
+    options: [
+      "random page is chosen",
+      "newest page is chosen",
+      "oldest page is chosen",
+      "none of the mentioned",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 194,
+    question: `Memory management technique in which system stores and retrieves data from secondary storage for use in main memory is called`,
+    options: ["fragmentation", "paging", "mapping", "starvation"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 195,
+    question: `Requirements which are a consequence of organisational policies and procedures are termed as_______`,
+    options: [
+      "product requirement",
+      "External requirement",
+      "Process requiement",
+      "Organisational requirements",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 196,
+    question: `Routine is not loaded until it is called. All routines are kept on disk in a relocatable load format. The main program is loaded into memory & is executed. This type of loading is called ________ ?`,
+    options: [
+      "Static loading",
+      "Dynamic loading",
+      "Dynamic linking",
+      "Overlays",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 197,
+    question: `Status bit is also called`,
+    options: ["Binary bit", "Flag bit", "Signed bit", "Unsigned bit"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 198,
+    question: `Swap space exists in:`,
+    options: [
+      "CPU",
+      "secondary memory",
+      "primary memory",
+      "none of the mentioned",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 199,
+    question: `The address of a page table in memory is pointed by:`,
+    options: [
+      "stack pointer",
+      "page table base register",
+      "page register",
+      "program counter",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 200,
+    question: `The FIFO algorithm`,
+    options: [
+      "executes first the job that last entered the queue",
+      "executes first the job that first entered the queue",
+      "execute first the job that has been in the queue the longest",
+      "executes first the job with the least processor needs",
+    ],
+    correctOptionIndex: 1,
   },
 ];
 
