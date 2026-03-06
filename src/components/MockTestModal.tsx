@@ -96,7 +96,7 @@ export const MockTestModal = ({
                       {examMode === ExamMode.Random && (
                         <span className="text-[12px]">
                           {toQuestion - fromQuestion > 100
-                            ? " (100 questions)"
+                            ? ` (100 questions - from ${fromQuestion} to ${toQuestion})`
                             : ` (from ${fromQuestion} to ${toQuestion})`}
                         </span>
                       )}
