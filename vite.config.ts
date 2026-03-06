@@ -5,5 +5,9 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base:"/comprehensive-practitioner"
+  base:"/comprehensive-practitioner",
+  build: {
+    sourcemap: false,
+    minify: "esbuild",
+  },
 });

@@ -1,4 +1,4 @@
-import logo from '../../assets/thamdaksh.png';
+import logo from "../../assets/thamdaksh.png";
 
 export const Footer = () => {
   return (

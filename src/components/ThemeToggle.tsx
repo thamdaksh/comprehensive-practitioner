@@ -2,7 +2,7 @@ import { Button } from "@headlessui/react";
 import { MoonIcon, SunIcon } from "@heroicons/react/16/solid";
 import { useEffect, useState } from "react";
 
-export function ThemeToggle() {
+export const ThemeToggle = () => {
   const [theme, setTheme] = useState<"light" | "dark">("light");
 
   useEffect(() => {

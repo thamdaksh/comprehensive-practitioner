@@ -49,8 +49,19 @@ export const MockTestModal = ({
   };
 
   const disableStartTest = () => {
-    return !(fromQuestion > 0 && toQuestion <= totalQuestions) && (toQuestion - fromQuestion > 0);
-  }
+    return (
+      !(fromQuestion > 0 && toQuestion <= totalQuestions) &&
+      toQuestion - fromQuestion > 0
+    );
+  };
+
+  const handleSetToQuestion = (event: React.ChangeEvent<HTMLInputElement>) => {
+    let to = Number(event.target.value);
+    if (to >= totalQuestions) {
+      to = totalQuestions;
+    }
+    setToQuestion(to);
+  };
 
   return (
     <Dialog
@@ -82,9 +93,13 @@ export const MockTestModal = ({
                     ></Radio>
                     <Label>
                       {examMode}
-                      {examMode === ExamMode.Random &&
-                        (toQuestion - fromQuestion) > 100 &&
-                        " (100 questions)"}
+                      {examMode === ExamMode.Random && (
+                        <span className="text-[12px]">
+                          {toQuestion - fromQuestion > 100
+                            ? " (100 questions)"
+                            : ` (from ${fromQuestion} to ${toQuestion})`}
+                        </span>
+                      )}
                     </Label>
                   </Field>
                 ))}
@@ -126,7 +141,7 @@ export const MockTestModal = ({
                       min={fromQuestion + 10}
                       value={toQuestion}
                       max={totalQuestions}
-                      onChange={(e) => setToQuestion(Number(e.target.value))}
+                      onChange={handleSetToQuestion}
                       className="mt-1 w-30 border border-gray-500 rounded-sm mx-1 p-1"
                     />
                   </Field>
@@ -146,10 +161,10 @@ export const MockTestModal = ({
             </Button>
             <Button
               className={`w-full h-10 rounded-[1vw] text-primary-foreground ${
-  disableStartTest()
-    ? "bg-red-500 hover:bg-red-600"
-    : "bg-green-500 hover:bg-green-600"
-}`}
+                disableStartTest()
+                  ? "bg-red-500 hover:bg-red-600"
+                  : "bg-green-500 hover:bg-green-600"
+              }`}
               disabled={disableStartTest()}
               onClick={handleStartTest}
             >

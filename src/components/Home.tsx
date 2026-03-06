@@ -13,7 +13,7 @@ import { Layout, type LayoutType } from "./layout/Main";
 import { useState } from "react";
 
 type HomeProps = {
-  setLayout: (layout: LayoutType) =>void
+  setLayout: (layout: LayoutType) => void;
   onStartTest: (mode: string, from: number, to: number) => void;
 };
 
