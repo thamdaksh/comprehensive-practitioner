@@ -11,3 +11,6 @@ I would like to bring your attention to the following statement:
 This website is designed to help students prepare effectively for their comprehensive examinations by providing a unified platform for practice and learning. It is intended solely for educational purposes.
 
 Strictly for Education purpose only!
+The misuse of this website is strictly prohibited. The creators and administrators of this website are not liable for any consequences, damages, or issues resulting from the misuse of this platform.
+
+If you found any issues/bugs contact: thamdaksh@gmail.com

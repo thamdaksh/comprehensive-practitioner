@@ -64,6 +64,9 @@ export const Main = () => {
           <p className="text-xl text-muted-foreground">
             Choose your learning mode to get started
           </p>
+          <p className="text-md text-muted-foreground">
+            "Please read the disclaimer carefully before proceeding. Use this at your own risk."
+          </p>
           <div className="grid grid-cols-1 gap-4 my-20 justify-items-center">
             <Button
               className="flex items-center rounded-xl border bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:bg-green-600 hover:text-white transition"

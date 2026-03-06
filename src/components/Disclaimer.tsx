@@ -42,8 +42,8 @@ export const Disclaimer = () => {
         <p className="font-bold">Strictly for Education purpose only!</p>
         <p className="font-bold my-4">
           The misuse of this website is strictly prohibited. The creators and
-          administrators are not liable for any consequences, damages, or issues
-          resulting from the misuse of this platform.
+          administrators of this website are not liable for any consequences,
+          damages, or issues resulting from the misuse of this platform.
         </p>
       </CardFooter>
     </Card>

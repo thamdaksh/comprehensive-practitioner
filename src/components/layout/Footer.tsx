@@ -12,7 +12,7 @@ export const Footer = () => {
         </div>
         <div className="mt-2">
           <p>
-            Made by <span className="font-semibold">thamdhaksh</span>
+            Made by <span className="font-semibold">thamdaksh</span>
           </p>
           <p className="mt-1">Once a VITian, Always a VITian!</p>
         </div>
