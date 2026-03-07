@@ -23,6 +23,9 @@ export const Main = () => {
 
   const [mockTestQuestions, setMockTestQuestions] = useState(questions);
 
+  const newQuestion = questions.map((question, index) => ({...question, id: index+1}));
+  console.log(newQuestion);
+
   const handleStartMockTest = (testMode: string, from: number, to: number) => {
     const selectedQuestions = questions.slice(from - 1, to);
 

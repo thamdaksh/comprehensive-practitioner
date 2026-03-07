@@ -10569,6 +10569,3303 @@ export const questions: Question[] = [
     ],
     correctOptionIndex: 1,
   },
+  {
+    id: 1224,
+    question:
+      "Requirements that change due to the system's environment is said to be",
+    options: [
+      "Mutable requirements",
+      "Compatibility requirements",
+      "Emergent requirements",
+      "Consequential requirements",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1225,
+    question:
+      "Requirements that emerge as understanding of the system develops is termed as",
+    options: [
+      "Mutable requirements",
+      "Emergent requirements",
+      "Consequential requirements",
+      "Compatibility requirements",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1226,
+    question:
+      "Requirements which change during development or when the system is in use are said to be",
+    options: [
+      "stable requirement",
+      "volatile requirement",
+      "functional requirement",
+      "non functional requirement",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1227,
+    question:
+      "Requirements which specify that the delivered product must behave in a particular way is",
+    options: [
+      "design constraint",
+      "product requirement",
+      "organisational requirement",
+      "external requirement",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1228,
+    question: "Resolution of externally defined symbols is performed by",
+    options: ["Loader", "Assembler", "Linker", "Compiler"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1229,
+    question: "Resources are allocated to the process on non-sharable basis is",
+    options: [
+      "mutual exclusion",
+      "circular wait",
+      "hold and wait",
+      "no pre-emption",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1230,
+    question: "Ripple counter can not be described by",
+    options: ["Boolean equation", "clock duration", "graph", "flow chart"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1231,
+    question: "Ripple counters are also called",
+    options: [
+      "SSI counters",
+      "asynchronous counters",
+      "synchronous counters",
+      "VLSI counters",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1232,
+    question:
+      "Risks are explicitly assessed and resolved throughout the process in ______ model",
+    options: ["spiral", "prototyping", "incremental", "waterfall"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1233,
+    question: "Round robin scheduling is essentially the preemptive version of",
+    options: [
+      "FIFO",
+      "Shortest job first",
+      "Shortest remaining",
+      "Longest time first",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1234,
+    question: "Round Robin (RR) scheduling algorithm is suitable for",
+    options: [
+      "Real Time Operating Systems",
+      "Embedded Operating Systems",
+      "Distributed Operating Systems",
+      "Time Sharing Operating Systems",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1235,
+    question: "RS flipflop works on",
+    options: ["2 inputs", "3 inputs", "4 inputs", "5 inputs"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1236,
+    question: "Run time mapping from virtual to physical address is done by",
+    options: ["memory management unit", "PCI", "CPU", "semaphore tool"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1237,
+    question: "Runtime polymorphism can be achieved by",
+    options: [
+      "accessing virtual function through the pointer of base class",
+      "by accessing virtual function through the object",
+      "Accessing physical function",
+      "none of these",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1238,
+    question: "Serial adder can be converted to serial adder subtractor using",
+    options: ["encoder", "demux", "multiplier", "mode control"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1239,
+    question: "Serial addition can be done with",
+    options: ["shift register", "serial load", "load", "ring shift register"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1240,
+    question:
+      "Shift register whose input is connected to select output is called",
+    options: [
+      "feedback shift register",
+      "bidirectional shift register",
+      "unidirectional shift register",
+      "ring shift register",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1241,
+    question:
+      "Shift registers having four bits will enable shift control signal for",
+    options: [
+      "2 clock pulses",
+      "3 clock pulses",
+      "4 clock pulses",
+      "5 clock pulses",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1242,
+    question: "Simplest registers only consists of",
+    options: ["counter", "EPROM", "latch", "flipflop"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1243,
+    question: "Simplified expression of full adder carry is",
+    options: ["c=xy+xz+yz", "c=xy+xz", "c=xy+yz", "c=x+y+z"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1244,
+    question: "Simplified expression of half adder carry is",
+    options: ["c=xy+x", "c=y+x", "c=xy+y", "c=xy"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1245,
+    question:
+      "Software must be usable by the users for which it was designed is termed as",
+    options: ["productivity", "usability", "reliability", "efficiency"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1246,
+    question:
+      "Software should not make wasteful use of system resources is termed as",
+    options: ["productivity", "usability", "efficiency", "reliability"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1247,
+    question: "Sometimes the overhead of keeping track of a hole might be",
+    options: [
+      "larger than the hole itself",
+      "larger than the memory",
+      "very small",
+      "small or big depends on os",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1248,
+    question: "SR latch consists of",
+    options: ["1 input", "2 inputs", "3 inputs", "4 inputs"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1249,
+    question: "SRD stands for",
+    options: [
+      "Software requirements definition",
+      "Structured requirements definition",
+      "Software requirements diagram",
+      "Structured requirements diagram",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1250,
+    question: "Stable condition in transition table is given by expression",
+    options: ["Y=x", "X=x", "Y=y", "X=y"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1251,
+    question: "STACK IS ALSO CALLED",
+    options: [
+      "Last in First out",
+      "First In last Out",
+      "First In First Out",
+      "Last In Last Out",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1252,
+    question: "Star topology is used in",
+    options: ["LAN", "WAN", "MAN", "Internetwork"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1253,
+    question: "State of flipflop can be switched by changing its",
+    options: [
+      "input signal",
+      "output signal",
+      "momentary signals",
+      "all signals",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1254,
+    question: "Static analysers are software tools for",
+    options: [
+      "requirement analysis",
+      "diagram generators",
+      "source text processing",
+      "database management system",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1255,
+    question: "Strobe S in a mux acts as",
+    options: ["enable", "reset", "clear", "stop"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1256,
+    question: "Structured charts are a product of",
+    options: [
+      "requirement gathering",
+      "requirement analysis",
+      "design",
+      "coding",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1257,
+    question:
+      "Subtraction of two binary numbers is done by taking complementing",
+    options: ["output", "subtract", "subtrahend", "remainder"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1258,
+    question: "Subtraction of two signed numbers is performed with",
+    options: [
+      "1's complement",
+      "2's complement",
+      "9's complement",
+      "10's complement",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1259,
+    question: "Subtractor also have output to check if 1 has been",
+    options: ["complemented", "borrowed", "shifted", "primed"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1260,
+    question: "super keyword in Java is used for",
+    options: [
+      "to refer to immediate child class of a class",
+      "to refer to immediate parent class of a class",
+      "to refer to current class object",
+      "to refer to static member of parent class",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1261,
+    question: "Superclass - subclass relationships, also known as",
+    options: ["Aggregation", "Association", "Generalization", "Communication"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1262,
+    question: "Supervisor state is",
+    options: [
+      "never used",
+      "required to perform any I/O",
+      "entered by programs when they enter the processor",
+      "only allowed to the operating system",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1263,
+    question:
+      "Which one of the following is a sufficient condition for ensuring that deadlock does not occur?",
+    options: ["∑Si < m + n", "∑Si > n", "∑Si < m * n", "∑Si < m"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1264,
+    question: "Switch which clears flipflop to its initial state is called",
+    options: ["clock", "invert", "hold", "clear"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1265,
+    question: "Synchronous counter is a type of",
+    options: ["SSI counters", "LSI counters", "MSI counters", "VLSI counters"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1266,
+    question: "System generation",
+    options: [
+      "is always quite simple",
+      "requires extensive tools to be understandable",
+      "is always very difficult",
+      "varies in difficulty between systems",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1267,
+    question: "Systematic manual analysis of the requirements are termed as",
+    options: [
+      "Feasibility study",
+      "Requirements reviews",
+      "Requirements elicitation",
+      "Requirements specification",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1268,
+    question: "Table that lists inputs for required change of states is called",
+    options: ["truth table", "excitation table", "state table", "clock table"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1269,
+    question:
+      "Testing with customer data to check that it is acceptable is termed as",
+    options: [
+      "system testing",
+      "module testing",
+      "acceptance testing",
+      "integration testing",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1270,
+    question:
+      "The philosophy behind ______ is defect avoidance rather than defect removal",
+    options: [
+      "Requirement analysis",
+      "Design verification",
+      "Clean room software development",
+      "Testing",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1271,
+    question:
+      "The ______ operator is a technique to forcefully convert one data type to the other",
+    options: ["Cast", "Conversion", "Type", "Unary"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1272,
+    question:
+      "The ______ is an iterative software development process framework created by the Rational Software Corporation",
+    options: [
+      "Spiral model",
+      "Rational Unified Process",
+      "Rational Prototyping",
+      "Waterfall",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1273,
+    question:
+      "The ______ is used when you have one case that is similar to another use case but does a bit more specialized",
+    options: [
+      "includes association",
+      "extends association",
+      "fix association",
+      "realize association",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1274,
+    question:
+      "The ______ may be used for user training before a final system is delivered",
+    options: ["pattern", "prototype", "architecture", "testcase"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1275,
+    question:
+      "The ______ is a software development process intended to produce software with a certifiable level of reliability",
+    options: [
+      "design process",
+      "business process",
+      "software engineering process",
+      "cleanroom software engineering process",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1276,
+    question:
+      "The ______ defines the types of documents to be managed and a document naming scheme",
+    options: ["CM plan", "project plan", "Baseline", "CI plan"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1277,
+    question:
+      "The address mapping done when the program is initially loaded is called",
+    options: [
+      "Relocation",
+      "Dynamic relocation",
+      "Static relocation",
+      "Executable relocation",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1278,
+    question:
+      "The addressing mode used in an instruction of the form ADD X Y is",
+    options: ["Absolute", "indirect", "register direct", "direct"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1279,
+    question:
+      "Which one of the following is true regarding the binary semaphore implementation?",
+    options: [
+      "The implementation may not work if context switching is disabled in P",
+      "Instead of using fetch-and-set, a pair of normal load/store can be used",
+      "The implementation of V is wrong",
+      "The code does not implement a binary semaphore",
+    ],
+    correctOptionIndex: 0,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1280,
+    question: "The binary address issued to data or instructions are called as",
+    options: [
+      "Physical address",
+      "Location",
+      "Relocatable address",
+      "Logical address",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1281,
+    question: "The class java.lang.Exception",
+    options: [
+      "protected",
+      "extends Throwable",
+      "implements Throwable",
+      "serializable",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1282,
+    question:
+      'The code snippet if("Welcome".trim() == "Welcome".trim()) System.out.println("Equal"); else System.out.println("Not Equal"); will',
+    options: [
+      'compile and display "Equal"',
+      'compile and display "Not Equal"',
+      "cause a compiler error",
+      "compile and display NULL",
+    ],
+    correctOptionIndex: 0,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1283,
+    question:
+      "The concept of ______ is used to represent a system whose inside workings are not available for inspection",
+    options: [
+      "Red box testing",
+      "black box testing",
+      "Glass box testing",
+      "White box testing",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1284,
+    question: "The condition flag Z is set to 1 to indicate",
+    options: [
+      "The operation has resulted in an error",
+      "The operation requires an interrupt call",
+      "The result is zero",
+      "There is no empty register available",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1285,
+    question:
+      "The conditions that must be present in order to start a use case is",
+    options: [
+      "start condition",
+      "precondition",
+      "postcondition",
+      "event tracking",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1286,
+    question: "The data on a DVD is held in the form of ______ on the disc",
+    options: [
+      "small pits and bumps",
+      "small bits",
+      "small bytes",
+      "None of These",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1287,
+    question: "The decoded instruction is stored in",
+    options: [
+      "Instruction Register",
+      "Program Counter",
+      "Register",
+      "Memory Data Register",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1288,
+    question: "The depth of a complete binary tree is given by",
+    options: ["n log n", "n log n + 1", "log n", "log n + 1"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1289,
+    question:
+      "The derivation of Child class from Base class is indicated by ______ symbol",
+    options: ["::", ":", ";", "|"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1290,
+    question:
+      "The design process for identifying the subsystems making up a system and the framework for subsystem control and communication is",
+    options: ["architectural design", "form design", "layer design", "design"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1291,
+    question:
+      "The disadvantage of moving all process to one end of memory and all holes to the other direction producing one large hole of available memory is",
+    options: [
+      "the memory used",
+      "the cost incurred",
+      "the CPU used",
+      "All of these",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1292,
+    question: "The DMA controller has ______ registers",
+    options: ["4", "3", "2", "1"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1293,
+    question: "The DMA transfer is initiated by",
+    options: ["Processor", "The process being executed", "I/O devices", "OS"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1294,
+    question: "The expression X = 4 + 2 % -8 evaluates",
+    options: ["-6", "6", "2", "-2"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1295,
+    question: "The fibre that will float on water",
+    options: ["Nylon", "Polyester", "Acrylic", "Polypropylene"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1296,
+    question:
+      'The following program is an example for class Student { int id; String name; void display(){ System.out.println(id+" "+name); } public static void main(String args[]){ Student s1=new Student(); Student s2=new Student(); s1.display(); s2.display(); }}',
+    options: [
+      "Parameterized constructor",
+      "Default Constructor",
+      "Overloading Constructor",
+      "None of the above",
+    ],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1297,
+    question:
+      "The following two statements illustrate the difference between int x = 25; Integer y = new Integer(33);",
+    options: [
+      "Primitive data types",
+      "primitive data type and an object of a wrapper class",
+      "Wrapper class",
+      "None of the above",
+    ],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1298,
+    question: "The high paging activity is called",
+    options: [
+      "Fragmentation",
+      "Segmentation",
+      "Thrashing",
+      "memory allocation",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1299,
+    question: "The Instruction fetch phase ends with",
+    options: [
+      "Placing the data from the address in MAR into MDR",
+      "Placing the address of the data into MAR",
+      "Completing the execution of the data and placing its storage address into MAR",
+      "Decoding the data in MDR and placing it in IR",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1300,
+    question:
+      "The instructions which copy information from one location to another either in the processor's internal register set or in the external main memory are called",
+    options: [
+      "Program control instructions",
+      "Input-output instructions",
+      "Data transfer instructions",
+      "Logical instructions",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1301,
+    question: "The interrupt-request line is a part of the",
+    options: ["Data line", "Control line", "Address line", "None of the above"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1302,
+    question: "The longer a fault exists in software",
+    options: [
+      "the more tedious its removal becomes",
+      "the more costly it is to detect and correct",
+      "the less likely it is to be properly corrected",
+      "All of the mentioned",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1303,
+    question:
+      "The maximum number of processes that can be in Ready state for a computer system with n CPUs is",
+    options: ["n", "n²", "2n", "Independent of n"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1304,
+    question:
+      "The measure of the average length of words and sentences in documents is termed as",
+    options: ["coupling", "fog index", "cohesion", "fan in"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1305,
+    question:
+      "The mechanism that binds code and data together to keep them secure from outside world is known as",
+    options: ["Abstraction", "Encapsulation", "Inheritance", "Polymorphism"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1306,
+    question:
+      "The memory allocation scheme subject to external fragmentation is",
+    options: [
+      "segmentation",
+      "swapping",
+      "multiple contiguous fixed partitions",
+      "pure demand paging",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1307,
+    question:
+      "The most appropriate matching for the following pairs X: depth first search 1: heap Y: breadth first search 2: queue Z: sorting 3: stack",
+    options: ["X-1 Y-2 Z-3", "X-3 Y-1 Z-2", "X-3 Y-2 Z-1", "X-2 Y-3 Z-1"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1308,
+    question:
+      "The multiplicand register & multiplier register of a hardware circuit implementing Booth's algorithm have (11101) & (1100). The result shall be",
+    options: ["(812)10", "(-12)10", "(12)10", "(-812)10"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1309,
+    question: "The object of DataInputStream is used to",
+    options: [
+      "To convert binary stream into character stream",
+      "to convert character stream into binary stream",
+      "To write data onto output object",
+      "All of the above",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1310,
+    question:
+      "The objective of ______ is to deliver a working system to end-users",
+    options: [
+      "designing",
+      "testing",
+      "throw away prototyping",
+      "evolutionary prototyping",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1311,
+    question:
+      "The operating system and the other processes are protected from being modified by an already running process because",
+    options: [
+      "they are in different memory spaces",
+      "they are in different logical addresses",
+      "they have a protection algorithm",
+      "every address generated by the CPU is being checked against the relocation and limit registers",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1312,
+    question: "The operating system creates ______ from the physical computer",
+    options: ["Virtual computers", "Virtual space", "Virtual device", "None"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1313,
+    question: "The operating system is",
+    options: [
+      "in the low memory",
+      "in the high memory",
+      "Secondary memory",
+      "either a or b (depending on the location of interrupt vector)",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1314,
+    question: "The page table contains",
+    options: [
+      "base address of each page in physical memory",
+      "page size",
+      "page offset",
+      "PTBR",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1315,
+    question: "The pager concerns with the",
+    options: [
+      "first page of a process",
+      "entire thread",
+      "individual page of a process",
+      "entire process",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1316,
+    question:
+      "The performance of cache memory is frequently measured in terms of a quantity called",
+    options: ["Miss ratio", "Hit ratio", "Latency ratio", "Read ratio"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1317,
+    question: "The performance of Round Robin (RR) scheduling depends on",
+    options: ["quantum", "priority", "preemption", "None of the above"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1318,
+    question: "The performance of the cache memory is measured in terms of",
+    options: ["Hit Ratio", "Chat Ratio", "Copy Ratio", "Data Ratio"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1319,
+    question:
+      "The primary objective of ______ is to scope the system adequately as a basis for validating initial costing and budgets",
+    options: [
+      "elaboration phase",
+      "construction phase",
+      "inception phase",
+      "transition phase",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1320,
+    question:
+      "The primary objective of ______ phase is to mitigate the key risk items identified by analysis up to the end of this phase",
+    options: ["inception", "elaboration", "construction", "transition"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1321,
+    question: "The process of storing and restoring from PCB is called",
+    options: ["Loading", "Relocation", "context switch", "Dispatcher"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1322,
+    question: "The process that is currently being executed is called",
+    options: [
+      "Waiting State",
+      "Running State",
+      "Ready state",
+      "None of the above",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1323,
+    question: "The recurring aspects of designs are called design",
+    options: ["patterns", "documents", "objects", "classes"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1324,
+    question: "The relocation register helps in",
+    options: [
+      "providing more address space to processes",
+      "a different address space to processes",
+      "to save the process state in PCB",
+      "to protect the address spaces of processes",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1325,
+    question: "The resolution of externally defined symbols is performed by",
+    options: ["Compiler", "Assembler", "Linker", "None of the above"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1326,
+    question:
+      "The RUP has determined a project life-cycle consisting of ______ phases",
+    options: ["four", "five", "six", "seven"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1327,
+    question: "The size of the Multiplier Quotient in IAS machine is",
+    options: ["20 Bits", "12 Bits", "40 Bits", "8 Bits"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1328,
+    question: "The size of the Program Counter in IAS machine is",
+    options: ["12", "20", "40", "8"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1329,
+    question: "The SRS is said to be consistent if and only if",
+    options: [
+      "its structure and style are such that any changes to the requirements can be made easily while retaining the style and structure",
+      "every requirement stated therein is one that the software shall meet",
+      "every requirement stated therein is verifiable",
+      "no subset of individual requirements described in it conflict with each other",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1330,
+    question:
+      "The strategy of allowing processes that are logically runnable to be temporarily suspended is called",
+    options: [
+      "preemptive scheduling",
+      "non preemptive scheduling",
+      "shortest job first",
+      "first come first served",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1331,
+    question: "The sum of 11101 + 10111 equals",
+    options: ["110011", "100001", "110100", "100100"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1332,
+    question:
+      "The technique where the controller is given complete access to main memory is",
+    options: ["Cycle stealing", "Memory stealing", "Memory Con", "Burst mode"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1333,
+    question:
+      "The techniques which move the program blocks to or from the physical memory is called",
+    options: ["Paging", "Virtual memory organisation", "Overlays", "Framing"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1334,
+    question:
+      "The total number of processes completed per unit time is termed as",
+    options: [
+      "throughput",
+      "response time",
+      "waiting time",
+      "Turn around time",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1335,
+    question: "The two phases of executing an instruction are",
+    options: [
+      "Instruction fetch and instruction execution",
+      "Instruction execution and storage",
+      "Instruction execution and processing",
+      "Instruction fetch and instruction processing",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1336,
+    question:
+      "The unit which decodes and translates each instruction and generates the necessary enable signals for ALU and other units is called",
+    options: ["ALU", "Control Unit", "CPU", "Logical Unit"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1337,
+    question:
+      "The virtual memory basically stores the next segment of data to be executed on the",
+    options: ["Secondary storage", "Disks", "RAM", "ROM"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1338,
+    question: "The ____ register is read by the host to get input",
+    options: ["data out", "data in", "flow out", "None"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1339,
+    question: "The ____ register is read by the host to get input",
+    options: ["data out", "data in", "flow out", "None of the above"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1340,
+    question: "The memory address of the first element of an array is called",
+    options: [
+      "floor address",
+      "foundation address",
+      "first address",
+      "base address",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1341,
+    question:
+      "The memory address of fifth element of an array can be calculated by the formula",
+    options: [
+      "LOC(Array[5]) = Base(Array) + w(5 - lower bound)",
+      "LOC(Array[5]) = Base(Array[5]) + (5 - lower bound)",
+      "LOC(Array[5]) = Base(Array[4]) + (5 - upper bound)",
+      "None of these",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1342,
+    question:
+      "The ___ notation is a mature technique for model-based specification",
+    options: ["K", "F", "Z", "R"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1343,
+    question: "Third step of making transition table is",
+    options: [
+      "determining feedback loop",
+      "designating output of loops",
+      "deriving functions of Y",
+      "plotting Y",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1344,
+    question: "Thrashing",
+    options: [
+      "is a natural consequence of virtual memory systems",
+      "always occurs on large computers",
+      "can be caused by poor paging algorithms",
+      "can always be avoided by swapping",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1345,
+    question: "Thrashing occurs when",
+    options: [
+      "When a page fault occurs",
+      "Processes on system frequently access pages not memory",
+      "Processes on system are in running state",
+      "Processes on system are in waiting state",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1346,
+    question: "Thread class is available in",
+    options: [
+      "java.io package",
+      "java.lang package",
+      "java.awt package",
+      "java.util package",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1347,
+    question:
+      "Three concurrent processes X, Y, and Z execute code segments using semaphores. Which one represents a deadlock-free order of invoking the P operations?",
+    options: [
+      "X:P(a)P(b)P(c) Y:P(b)P(c)P(d) Z:P(c)P(d)P(a)",
+      "X:P(b)P(a)P(c) Y:P(b)P(c)P(d) Z:P(a)P(c)P(d)",
+      "X:P(b)P(a)P(c) Y:P(c)P(b)P(d) Z:P(a)P(c)P(d)",
+      "X:P(a)P(b)P(c) Y:P(c)P(b)P(d) Z:P(c)P(d)P(a)",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1348,
+    question: "Time between clock pulses are called",
+    options: ["bit duration", "clock duration", "duration", "bit time"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1349,
+    question: "Time delay device is memory element of",
+    options: [
+      "unclocked flip-flops",
+      "clocked flip-flops",
+      "synchronous circuits",
+      "asynchronous circuits",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1350,
+    question: "Time sequence for flip-flop can be enumerated by",
+    options: ["state table", "map", "truth table", "graph"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1351,
+    question:
+      "To access a structure element using a pointer, ______ operator is used",
+    options: ["dot (.)", "pointer (&)", "pointer (*)", "arrow (->)"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1352,
+    question:
+      "To avoid the race condition, the number of processes that may be simultaneously inside their critical section is",
+    options: ["8", "10", "1", "0"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1353,
+    question: "To clear flip-flops we use",
+    options: ["toggle switch", "push button", "mux", "demux"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1354,
+    question: "To execute the threads one after another",
+    options: [
+      "the keyword synchronize is used",
+      "the keyword synchronizable is used",
+      "the keyword synchronized is used",
+      "None of the above",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1355,
+    question:
+      "To implement Boolean function with NAND gates we convert function to",
+    options: ["AND logic", "OR logic", "NOR logic", "NAND logic"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1356,
+    question: "To load data to shift register its SH/LD pin should be",
+    options: ["1", "0", "reset", "undefined"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1357,
+    question: "To start counting enable input should be",
+    options: ["0", "1", "reset", "clear"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1358,
+    question: "Token bucket allows bursty traffic to be regulated at",
+    options: ["maximum rate", "minimum rate", "both", "none"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1359,
+    question:
+      "Tools to support later activities such as programming, debugging and testing are",
+    options: ["Upper-CASE", "Lower-CASE", "CASE", "Middle-CASE"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1360,
+    question:
+      "Tools to support the early process activities of requirements and design are",
+    options: ["Upper-CASE", "Lower-CASE", "Middle-CASE", "CASE"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1361,
+    question: "Traditional software development approach is based on",
+    options: [
+      "classes and methods",
+      "Objects and Isolated data",
+      "functions and procedures",
+      "attributes",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1362,
+    question: "Transference of information from one register to another is",
+    options: [
+      "Intra-register transfer operation",
+      "Inter-register transfer operation",
+      "Out register transfer operation",
+      "In register transfer operation",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1363,
+    question: "Transition table that terminates in total stable state gives",
+    options: ["sequence", "series", "unique sequence", "unique series"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1364,
+    question: "Trees are examples of which type of data structure",
+    options: [
+      "Linear and Hierarchical",
+      "Linear and Non-Hierarchical",
+      "Non-Linear and Hierarchical",
+      "Non-Linear and Non-Hierarchical",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1365,
+    question: "Two bit addition is done by",
+    options: [
+      "ripple carry adder",
+      "carry sum adder",
+      "full adder",
+      "half adder",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1366,
+    question: "Two bit subtraction is done by",
+    options: ["demux", "mux", "full subtractor", "half subtractor"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1367,
+    question: "Two cross coupled NAND gates make",
+    options: ["SR Latch", "RS flipflop", "D flipflop", "master slave flipflop"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1368,
+    question: "Two dimensional arrays are also called",
+    options: [
+      "tables arrays",
+      "matrix arrays",
+      "tables and matrix arrays",
+      "attributes",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1369,
+    question: "Two dimensional arrays are also called",
+    options: [
+      "Matrices",
+      "Tables",
+      "Matrices and Tables",
+      "Neither Matrices nor table",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1370,
+    question: "Two methods are said to be overloaded if they have",
+    options: [
+      "same name and same number of parameter but different return type",
+      "they have same name",
+      "they have different name but same number of argument",
+      "have same name but different parameters",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1371,
+    question:
+      "Two sub layers of OSI Data Link layer are which of the following?",
+    options: [
+      "Data Link Control, Physical Layer Control",
+      "Logical Link Control, Data Link Control",
+      "Media Access Control, Physical Layer Control",
+      "Logical Link Control, Media Access Control",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1372,
+    question: "Using 10's complement 3250-72532 is",
+    options: ["-69272", "-69282", "-69252", "-69232"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1373,
+    question:
+      "Using an executable model of the system to check requirements is termed as",
+    options: [
+      "Prototyping",
+      "Requirement reviews",
+      "Requirement validation",
+      "Requirement analysis",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1374,
+    question: "Virtual memory is",
+    options: [
+      "Large secondary memory",
+      "Large main memory",
+      "Illusion of large main memory",
+      "None of the above",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1375,
+    question: "Virtual memory is",
+    options: [
+      "an extremely large main memory",
+      "an extremely large secondary memory",
+      "an illusion of an extremely large memory",
+      "a type of memory used in super computers",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1376,
+    question:
+      "What are the types of requirement in Quality Function Deployment (QFD)",
+    options: [
+      "Known, Unknown, Undreamed",
+      "User, Developer",
+      "Functional, Non-Functional",
+      "Normal, Expected, Exciting",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1377,
+    question: "What DFD notation is represented by the Rectangle?",
+    options: ["Transform", "Data Store", "Function", "Data read"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1378,
+    question: "What does the file iostream contain?",
+    options: [
+      "Declarations of the standard input-output library functions",
+      "Definitions of the standard input-output library functions",
+      "Both",
+      "None of the Above",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1379,
+    question:
+      "What incorporates data, architectural, interface, and procedural representations of the software?",
+    options: ["design model", "user's model", "mental image", "system image"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1380,
+    question: "What information does EIGRP share with neighboring routers?",
+    options: [
+      "Only dynamic routes that it is using",
+      "All routes that it has learned",
+      "All EIGRP routes that it has learned",
+      "Only routes that it is using",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1381,
+    question: "What is a shell?",
+    options: [
+      "is a hardware component",
+      "It is a command interpreter",
+      "It is a part in compiler",
+      "It is a tool in CPU scheduling",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1382,
+    question: "What is a stub network?",
+    options: [
+      "A network with only one entry and no exit point",
+      "A network with more than one exit point",
+      "A network with more than one exit and entry point",
+      "A network that has only one entry and exit point",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1383,
+    question: "What is an aggregate object?",
+    options: [
+      "An object with only primitive attributes",
+      "An instance of a class which has only static methods",
+      "An instance which has other objects",
+      "None of the above",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1384,
+    question: "What is compaction?",
+    options: [
+      "a technique for overcoming internal fragmentation",
+      "a paging technique",
+      "a technique for overcoming external fragmentation",
+      "a technique for overcoming fatal error",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1385,
+    question:
+      "What is difference between protected and private access specifiers in inheritance?",
+    options: [
+      "private member is not inheritable and not accessible in derived class",
+      "protected member is inheritable and also accessible in derived class",
+      "Both are inheritable but private is accessible in the derived class",
+      "Both are inheritable but protected is not accessible in the derived class",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1386,
+    question: "What is route poisoning?",
+    options: [
+      "It describes when a router sets the metric for a downed link to infinity",
+      "It sends back the protocol received from a router as a poison pill",
+      "It is information received from a router that can't be sent back to the originating router",
+      "None of the above",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1387,
+    question: "What is split horizon?",
+    options: [
+      "Information about a route should not be sent back in the direction from which the original update came",
+      "It splits the traffic when you have a large bus physical network",
+      "It holds the regular updates from broadcasting to a downed link",
+      "It prevents regular update messages from reinstating a route that has gone down",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1388,
+    question: "What is the major drawback of using RAD Model?",
+    options: [
+      "Highly specialized & skilled developers/designers are required",
+      "Increases re-usability of components",
+      "Encourages customer/client feedback",
+      "Both a & c",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1389,
+    question: "What is the default subnet mask for a class C network?",
+    options: ["255.0.0.0", "127.0.0.1", "255.255.255.0", "255.255.0.0"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1390,
+    question:
+      "What is the difference between binary coding and binary-coded decimal?",
+    options: [
+      "BCD is pure binary",
+      "Binary coding has a decimal format",
+      "BCD has no decimal format",
+      "Binary coding is pure binary",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1391,
+    question:
+      "What is the difference between overloaded functions and overridden functions?",
+    options: [
+      "Overloading is a static or compile-time binding and Overriding is dynamic or run-time binding",
+      "Overloading is a dynamic or run-time binding and Overriding is static or compile-time binding",
+      "Redefining a function in a friend class is called overriding while redefining in derived class is overloading",
+      "Redefining a function in a friend class is overloading while redefining in derived class is overriding",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1392,
+    question:
+      "What is the difference between protected and private access specifiers in inheritance?",
+    options: [
+      "private member is not inheritable and not accessible in derived class",
+      "protected member is inheritable and also accessible in derived class",
+      "Both are inheritable but private is accessible in derived class",
+      "Both are inheritable but protected is not accessible in derived class",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1393,
+    question: "What is the main function of transport layer?",
+    options: [
+      "process to process message delivery",
+      "node to node delivery",
+      "synchronization",
+      "updating and maintenance of routing tables",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1394,
+    question:
+      "What is the maximum number of IP addresses that can be assigned to hosts on a subnet using mask 255.255.255.224?",
+    options: ["16", "30", "15", "14"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1395,
+    question:
+      "What is the name given to the organized collection of software that controls the overall operation of a computer?",
+    options: [
+      "Working system",
+      "Operating system",
+      "Controlling system",
+      "Peripheral system",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1396,
+    question:
+      "What is the output of the program that prints numbers using a do-while loop from n=1 while n<=100?",
+    options: [
+      "Print natural numbers 0 to 99",
+      "Print natural numbers 1 to 99",
+      "Print natural numbers 0 to 100",
+      "Print natural numbers 1 to 100",
+    ],
+    correctOptionIndex: 3,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1397,
+    question:
+      "What is the output of the Java program where arr[0].x=0, arr[1].x=1, arr[2].x=2 and show() prints only when x>1?",
+    options: ["0", "1", "2", "0 1 2"],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1398,
+    question:
+      "What is the output of the C++ program with array {4,5,6,7} and pointer int *p = (arr + 1); cout << *p;",
+    options: ["4", "5", "6", "7"],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1399,
+    question:
+      "What is the output of the Java program printing array elements with i++ inside the loop?",
+    options: [
+      "0 2 4 6 8",
+      "1 3 5 7 9",
+      "0 1 2 3 4 5 6 7 8 9",
+      "1 2 3 4 5 6 7 8 9 10",
+    ],
+    correctOptionIndex: 0,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1400,
+    question:
+      "What is the output of the program calculating average of {5.5,10.1,11,12.8,56.9,2.5}?",
+    options: ["16.34", "16.5555", "16.46666666666667", "16.4666666666"],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1401,
+    question:
+      "What is the output of the program converting double 295.04 and int 300 to byte?",
+    options: ["38 43", "39 44", "295 300", "295.4 300.6"],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1402,
+    question:
+      "What is the output of program: int g=3; System.out.print(++g * 8);",
+    options: ["24", "25", "32", "33"],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1403,
+    question:
+      "What is the prototype of the default constructor for class Test?",
+    options: [
+      "Test()",
+      "onlineexam.Test()",
+      "Test(void)",
+      "onlineexam.Test(void)",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1404,
+    question: "What is the purpose of Domain Name System (DNS)?",
+    options: [
+      "To map private IPv4 addresses to IPv4 addresses",
+      "To map MAC addresses to hostnames",
+      "To map IPv4 addresses to hostnames",
+      "To map IPv4 addresses to NetBIOS names",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1405,
+    question:
+      "What is the result of compiling and running the Java program with Mammal, Cattle, and Horse classes where c.eat(h) is called?",
+    options: [
+      'prints "Mammal eats food"',
+      'prints "Cattle eats hay"',
+      "Class cast Exception at runtime",
+      "None of these",
+    ],
+    correctOptionIndex: 0,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1406,
+    question: "What is the swap space in the disk used for?",
+    options: [
+      "Saving temporary html pages",
+      "Saving process data",
+      "Storing the super-block",
+      "Storing device drivers",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1407,
+    question:
+      "What is the value of 'number' after executing the while loop where number starts at 0 and increments until it reaches number2 = 12?",
+    options: ["5", "12", "21", "13"],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1408,
+    question:
+      "What kind of logic device or circuit is used to store information?",
+    options: ["Counter", "Register", "Inverter", "Buffer"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1409,
+    question:
+      "What kind of system allows several users to use it simultaneously?",
+    options: [
+      "Multiuser system",
+      "Multilevel user system",
+      "Single user system",
+      "Multiprocessing user system",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1410,
+    question:
+      "What PPP protocol provides dynamic addressing, authentication, and multilink?",
+    options: ["NCP", "HDLC", "X.25", "LCP"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1411,
+    question:
+      "What will be the output of the Java program where static int count = 100 and increment() increases it before printing b2.count?",
+    options: ["100", "101", "Error in line 13", "0"],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1412,
+    question:
+      "What will be the output of the program where class A assigns x = x inside assign(100)?",
+    options: ["10", "100", "0", "compile-time error"],
+    correctOptionIndex: 0,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1413,
+    question:
+      'What will be the output of the sample code with try { return; } finally { System.out.println("Finally"); } ?',
+    options: [
+      "Finally",
+      "Compilation fails",
+      "The code runs with no output",
+      "An exception is thrown at runtime",
+    ],
+    correctOptionIndex: 0,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1414,
+    question:
+      "What will be the output of the sample program where badMethod() throws an Error and try-catch-finally prints B, C, D accordingly?",
+    options: [
+      "ABCD",
+      "Compilation fails",
+      "C is printed before exiting with an error message",
+      "BC is printed before exiting with an error message",
+    ],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1415,
+    question:
+      "What will be the output of the program with try { int y = 5/x; } catch(Exception e) ... catch(ArithmeticException ae) ... ?",
+    options: [
+      "finished",
+      "Exception",
+      "Compilation fails",
+      "Arithmetic Exception",
+    ],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1416,
+    question:
+      "What will be the output of the C++ program where array is {0,2,4,6,7,5,3} and result += billy[n] inside the loop?",
+    options: ["25", "26", "27", "none of the above"],
+    correctOptionIndex: 3,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1417,
+    question:
+      "What will be the output of the program where class B extends A and overrides method m1()?",
+    options: ["runtime error", "A", "B", "compilation error"],
+    correctOptionIndex: 3,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1418,
+    question:
+      "What will happen if you try to compile and run the code where class Test has constructor Test(int n) but main creates Test n = new Test();",
+    options: [
+      "Program exits without printing anything",
+      "Compilation error at line 10",
+      "Compilation error at line 6",
+      "Run-time exception",
+    ],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1419,
+    question:
+      "When a program tries to access a page that is mapped in address space but not loaded in physical memory, then?",
+    options: [
+      "segmentation fault occurs",
+      "no error occurs",
+      "page fault occurs",
+      "fatal error occurs",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1420,
+    question:
+      "When a subroutine is called, the address of the instruction following the CALL instruction is stored in/on the",
+    options: ["stack pointer", "accumulator", "program counter", "stack"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1421,
+    question: "When both inputs are 1 output of XOR is",
+    options: ["1", "0", "x", "10"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1422,
+    question:
+      "When CPU is executing a program that is part of the operating system, it is said to be in",
+    options: ["Interrupt mode", "System mode", "Half mode", "Simplex mode"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1423,
+    question: "When J and complement of K are 1, flip-flop QA after shift is",
+    options: ["1", "0", "reset", "defined"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1424,
+    question: "When mode of adder subtractor is 0 it will give",
+    options: ["A-B", "A+B", "A/B", "A*B"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1425,
+    question: "When mode of adder subtractor is 0 it",
+    options: ["adds", "subtracts", "divides", "multiply"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1426,
+    question: "When mode of adder subtractor is 1 it",
+    options: ["adds", "subtracts", "divides", "multiply"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1427,
+    question:
+      "When overloading unary operators using friend function, it requires ___ argument/s.",
+    options: ["Zero", "One", "Two", "None of these"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1428,
+    question:
+      "When the memory allocated to a process is slightly larger than the process, then:",
+    options: [
+      "external fragmentation occurs",
+      "internal fragmentation occurs",
+      "both external and internal fragmentation occurs",
+      "neither external nor internal fragmentation occurs",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1429,
+    question:
+      "When using branching, the usual sequencing of the PC is altered. A new instruction is loaded which is called as",
+    options: [
+      "Branch target",
+      "Loop target",
+      "Forward target",
+      "Jump instruction",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1430,
+    question: "When we create String with new() operator, where is it stored?",
+    options: [
+      "In the String Pool",
+      "It is created in Heap but not added to String Pool",
+      "Not stored anywhere",
+      "None of the above",
+    ],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1431,
+    question: "When you ping the loopback address, a packet is sent where?",
+    options: [
+      "Across the wire",
+      "On the network",
+      "Down through the layers of the IP architecture and then up the layers again",
+      "Through the loopback dongle",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1432,
+    question:
+      "Whenever CPU detects an interrupt, what it does with the current state?",
+    options: [
+      "Save it",
+      "Discard it",
+      "Depends system to system",
+      "First finish it",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1433,
+    question: "Where can Belady’s anomaly occur?",
+    options: [
+      "LRU Page Replacement Policy",
+      "FIFO Page Replacement Policy",
+      "MRU Page Replacement Policy",
+      "Optimal Page Replacement Policy",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1434,
+    question: "Where does routing occur within the DoD TCP/IP reference model?",
+    options: ["application", "internet", "network", "transport"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1435,
+    question: "Where does the swap space reside?",
+    options: ["Disk", "RAM", "ROM", "On-chip cache"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1436,
+    question: "Where does the swap space reside?",
+    options: ["RAM", "Disk", "ROM", "On-chip cache"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1437,
+    question: "Which of the following is not an operation on stack?",
+    options: ["Push", "Pop", "Peep", "Pull"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1438,
+    question:
+      "Which of the following are the operations performed by Kruskal's algorithm?",
+    options: [
+      "i and ii only",
+      "ii and iii only",
+      "i and iii only",
+      "All i, ii and iii",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1439,
+    question:
+      "Which according to you is the most important stakeholder from the following?",
+    options: [
+      "Entry level personnel",
+      "Middle level stakeholder",
+      "Managers",
+      "Users of the software",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1440,
+    question:
+      "Which algorithm chooses the page that has not been used for the longest period of time whenever the page required to be replaced?",
+    options: [
+      "additional reference bit algorithm",
+      "least recently used algorithm",
+      "first in first out algorithm",
+      "counting based page replacement algorithm",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1441,
+    question:
+      "Which class of IP address provides a maximum of only 254 host addresses per network ID?",
+    options: ["Class A", "Class B", "Class C", "Class D"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1442,
+    question:
+      "Which class or interface defines the wait(), notify() and notifyAll() methods?",
+    options: ["Object", "Thread", "Runnable", "Class"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1443,
+    question: "Which classes allow primitive types to be accessed as objects?",
+    options: ["Storage", "Virtual", "Wrapper", "Friend"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1444,
+    question:
+      "Which component performs the main or key tasks of operating system?",
+    options: ["Kernel", "Shell", "File system", "Device driver"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1445,
+    question: "Which constructor will initialize the base class data member?",
+    options: ["derived class", "base class", "class", "None of the mentioned"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1446,
+    question: "Which dynamic routing protocol uses cost as its metric?",
+    options: ["OSPF", "BGP", "RIP", "EIGRP"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1447,
+    question:
+      "Which function is used to perform some action when the object is to be destroyed?",
+    options: [
+      "finalize()",
+      "delete()",
+      "None of the above mentioned",
+      "main()",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1448,
+    question:
+      "Which interrupt establishes a priority over the various sources to determine which request should be entertained first?",
+    options: ["Polling", "Priority interrupt", "Daisy chaining", "chaining"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1449,
+    question:
+      "Which IPv6 address is the equivalent of the IPv4 interface loopback address 127.0.0.1?",
+    options: ["0::/10", "2000::/3", "::", "::1"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1450,
+    question:
+      "Which is a protocol that one program can use to request a service from a program of another computer on a network?",
+    options: [
+      "Remote Procedure Call",
+      "I/O Virtualization",
+      "Memory Virtualization",
+      "ParaVirtualization",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1451,
+    question: "Which is a valid declaration within an Interface?",
+    options: [
+      "onlineexam.static short stop = 23;",
+      "protected short stop = 23;",
+      "transient short stop = 23;",
+      "final void start(short stop);",
+    ],
+    correctOptionIndex: 0,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1452,
+    question: "Which is not a step of requirement engineering?",
+    options: [
+      "Requirements elicitation",
+      "Requirements analysis",
+      "Requirements design",
+      "Requirements documentation",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1453,
+    question: "Which is not a function of an OS?",
+    options: [
+      "process Management",
+      "I/O Management",
+      "Memory Management",
+      "Networking",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1454,
+    question: "Which is not a valid state of a thread?",
+    options: ["running", "blocked", "parsing", "None of the above"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1455,
+    question: "Which is not a word size?",
+    options: ["64", "28", "16", "8"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1456,
+    question:
+      "Which is the first program run on a computer when the computer boots up?",
+    options: [
+      "System software",
+      "Operating system",
+      "System operations",
+      "system hardware",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1457,
+    question:
+      "Which is used for this and known as high speed buffer exist with almost each process?",
+    options: ["Primary", "Secondary", "Cache", "RAM"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1458,
+    question:
+      "Which keyword is used by method to refer to the object that invoked it?",
+    options: ["import", "catch", "abstract", "this"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1459,
+    question:
+      "Which method is used to establish priority by serially connecting all devices that request an interrupt?",
+    options: ["Interrupt", "Polling", "Priority", "Daisy chaining"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1460,
+    question:
+      "Which of the following is a valid class using the given code public interface A { public void showA(); }?",
+    options: [
+      "class B extends A { void showA(){} }",
+      "class B implements A { abstract void showA(){} }",
+      "class B implements A { void showA(){} }",
+      "class B implements A { void showA(); }",
+    ],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1461,
+    question:
+      "Which of the following is not a Requirement Management workbench tool?",
+    options: ["RTM", "DOORS", "Rational Suite", "RDD 100"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1462,
+    question: "Which of the following is not a use of a CASE tool?",
+    options: [
+      "Support structured analysis and design (SA/SD)",
+      "Maintains the data dictionary",
+      "Checks whether DFDs are balanced or not",
+      "It complies with the available system",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1463,
+    question: "Which of the following is not a user interface design process?",
+    options: [
+      "User, task, and environment analysis and modeling",
+      "Interface design",
+      "Knowledgeable, frequent users",
+      "Evaluation",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1464,
+    question:
+      "Which of the following life cycle model can be chosen if the development team has less experience on similar projects?",
+    options: ["Spiral", "Waterfall", "RAD", "Iterative Enhancement Model"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1465,
+    question:
+      "Which of the following property does not correspond to a good Software Requirements Specification (SRS)?",
+    options: ["Verifiable", "Complete", "Ambiguous", "Traceable"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1466,
+    question:
+      "Which of the property of software modularity is incorrect with respect to benefits of software modularity?",
+    options: [
+      "Modules are robust",
+      "Module can use other modules",
+      "Modules can be separately compiled and stored in a library",
+      "Modules are mostly dependent",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1467,
+    question:
+      "Which of the following addressing modes facilitates access to an operand whose location is defined relative to the beginning of the data structure in which it appears?",
+    options: ["ascending", "sorting", "index", "indirect"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1468,
+    question:
+      "Which of the following are loaded into main memory when the computer is booted?",
+    options: [
+      "external command instructions",
+      "word processing instructions",
+      "utility programs",
+      "internal command instructions",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1469,
+    question:
+      "Which of the following command is used to create terminal connection to another host in Unix?",
+    options: ["ssh", "scp", "telnet", "None of the above"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1470,
+    question:
+      "Which of the following command is used to print current working directory in Unix?",
+    options: ["mkdir", "pwd", "rm", "None of the above"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1471,
+    question: "Which of the following condition leads to deadlock?",
+    options: ["Hold and Wait", "Preemption", "Rollback", "Hold"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1472,
+    question: "Which of the following data structures are indexed structures?",
+    options: ["linear arrays", "linked lists", "Array", "Stack"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1473,
+    question:
+      "Which of the following device is used to connect two systems, especially if the systems use different protocols?",
+    options: ["repeater", "hub", "bridge", "gateway"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1474,
+    question:
+      "Which of the following devices assigns IP address to devices connected to a network that uses TCP/IP?",
+    options: ["DHCP Server", "NIC", "Gateway", "Hub"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1475,
+    question:
+      "Which of the following devices direct network traffic based not by MAC addresses but by software-configured network addresses?",
+    options: ["Router", "Hub", "Bridge", "NIC"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1476,
+    question:
+      "Which of the following devices is a PC component that connects the computer to the network?",
+    options: ["Bridge", "NIC", "DNS Server", "Gateway"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1477,
+    question:
+      "Which of the following devices modulates digital signals into analog signals that can be sent over traditional telephone lines?",
+    options: ["Router", "Gateway", "Switch", "Modem"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1478,
+    question:
+      "Which of the following devices translates hostnames into IP addresses?",
+    options: ["DNS Server", "Hub", "DHCP Server", "Firewall"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1479,
+    question:
+      "Which of the following DMA transfer modes and interrupt handling mechanisms will enable the highest I/O bandwidth?",
+    options: [
+      "Transparent DMA and Polling interrupts",
+      "Cycle-stealing and Vectored interrupts",
+      "Block transfer and Vectored interrupts",
+      "Block transfer and Polling interrupts",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1480,
+    question:
+      "Which of the following holds the data currently being worked on?",
+    options: [
+      "Stack pointer",
+      "Program Counter",
+      "Accumulator",
+      "Instruction Pointer",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1481,
+    question:
+      "Which of the following is not the required condition for binary search algorithm?",
+    options: [
+      "The list must be sorted",
+      "There should be direct access to the middle element in any sublist",
+      "There must be mechanism to delete and/or insert elements in list",
+      "None of these",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1482,
+    question:
+      "Which of the following is a method having same name as that of its class?",
+    options: ["finalize", "delete", "class", "constructor"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1483,
+    question:
+      "Which of the following is a scheduling algorithm that allows a process to move up and down between queues?",
+    options: [
+      "Round Robin scheduling",
+      "First Come First Served scheduling",
+      "Multilevel feedback queue scheduling",
+      "Shortest Job First scheduling",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1484,
+    question: "Which of the following is a solution to fragmentation problem?",
+    options: ["Thread", "Kernel", "Paging", "Multiprogramming"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1485,
+    question: "Which of the following is a type of Semaphores?",
+    options: [
+      "Binary Semaphore",
+      "Counting Semaphore",
+      "Both (1) & (2)",
+      "None of the above",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1486,
+    question:
+      "Which of the following is an example of Batch Processing Operating Systems?",
+    options: ["Lynx OS", "Mac OS", "UNIX", "Windows"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1487,
+    question:
+      "Which of the following is an example of Cooperative Multitasking OS?",
+    options: ["Lynx OS", "Mac OS", "MS DOS", "None of the above"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1488,
+    question:
+      "Which of the following is an example of Real Time Operating Systems?",
+    options: ["Lynx OS", "Linux", "Windows", "UNIX"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1489,
+    question:
+      "Which of the following is correct way of importing an entire package 'pkg'?",
+    options: ["import pkg.", "Import pkg.", "import pkg.*", "Import pkg.*"],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1490,
+    question: "Which of the following is incorrect statement about packages?",
+    options: [
+      "Interfaces specifies what class must do but not how it does.",
+      "Interfaces are specified if they are to be accessed by any code in the program.",
+      "All variables in interface are implicitly final and static.",
+      "All variables are static and methods are public if interface is defined public",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1491,
+    question:
+      "Which of the following is major part of time taken when accessing data on the disk?",
+    options: ["Settle time", "Rotational latency", "Seek time", "Waiting time"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1492,
+    question: "Which of the following is multi threading model?",
+    options: [
+      "many to many relationship",
+      "many to one relationship",
+      "one to one relationship",
+      "All of the above",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1493,
+    question: "Which of the following is not a method of the Thread class?",
+    options: [
+      "void exit()",
+      "void run()",
+      "void start()",
+      "final int getPriority()",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1494,
+    question: "Which of the following is not a return type?",
+    options: ["boolean", "void", "String", "Button"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1495,
+    question:
+      "Which of the following is not a valid declaration of a Top level class?",
+    options: [
+      "final class Test {}",
+      "class $Test{}",
+      "static class Test {}",
+      "abstract class _Test {}",
+    ],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1496,
+    question:
+      "Which of the following is not a limitation of binary search algorithm?",
+    options: [
+      "must use a sorted array",
+      "requirement of sorted array is expensive when a lot of insertion and deletions are needed",
+      "there must be a mechanism to access middle element directly",
+      "binary search algorithm is not efficient when the data elements are more than 1000",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1497,
+    question: "Which of the following is not an advantage of software reuse?",
+    options: [
+      "lower costs",
+      "faster software development",
+      "high effectiveness",
+      "lower risks",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1498,
+    question:
+      "Which of the following is NOT an advantage of using shared dynamically linked libraries as opposed to using statically linked libraries?",
+    options: [
+      "Smaller sizes of executable files",
+      "Lesser overall page fault rate in the system",
+      "Faster program startup",
+      "Existing programs need not be re-linked to take advantage of newer versions of libraries",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1499,
+    question:
+      "Which of the following is NOT true of deadlock prevention and deadlock avoidance schemes?",
+    options: [
+      "In deadlock prevention, the request for resources is always granted if the resulting state is safe",
+      "In deadlock avoidance, the request for resources is always granted if the result state is safe",
+      "Deadlock avoidance is less restrictive than deadlock prevention",
+      "Deadlock avoidance requires knowledge of resource requirements a priori",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1500,
+    question: "Which of the following is private IP address?",
+    options: ["192.168.24.43", "168.172.19.39", "172.15.14.36", "12.0.0.1"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1501,
+    question: "Which of the following is standard print command in Unix?",
+    options: ["ncftp", "lpr", "ls", "grep"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1502,
+    question: "Which of the following is synchronized?",
+    options: ["Set", "LinkedList", "Vector", "WeakHashMap"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1503,
+    question:
+      "Which of the following is the creation of a virtual rather than actual version of an operating system?",
+    options: [
+      "Compression",
+      "Virtualization",
+      "Synchronization",
+      "Multithreading",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1504,
+    question: "Which of the following is the least simple data structure?",
+    options: [
+      "Linear array",
+      "Two dimensional array",
+      "Three dimensional array",
+      "Multi-dimensional array",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1505,
+    question: "Which of the following is true?",
+    options: [
+      "All objects of a class share all data members of class",
+      "Objects of a class do not share non-static members. Every object has its own copy.",
+      "Objects of a class do not share codes of non-static methods, they have their own copy",
+      "None of these",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1506,
+    question:
+      "Which of the following is used to denote the selection operation in relational algebra?",
+    options: ["Pi (Greek)", "Sigma (Greek)", "Lambda (Greek)", "Omega (Greek)"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1507,
+    question: "Which of the following is used to remove deadlock?",
+    options: [
+      "Preemption",
+      "Mutual Exclusion",
+      "Circular Wait",
+      "None of the above",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1508,
+    question:
+      "Which of the following are commonly used architectural patterns?",
+    options: [
+      "Layered Architecture",
+      "Model-View-Controller",
+      "Client-server",
+      "Model-View-Component",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1509,
+    question:
+      "Which of the following are examples of stateful application layer protocols? (i) HTTP (ii) FTP (iii) TCP (iv) POP3",
+    options: [
+      "(ii) and (iv) only",
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(iv) only",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1510,
+    question:
+      "Which of the following memory allocation scheme suffers from external fragmentation?",
+    options: ["Segmentation", "swapping", "demand Swapping", "context switch"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1511,
+    question:
+      "Which of the following memory management scheme loads all pages of a program from disk into main memory?",
+    options: [
+      "Paging",
+      "Demand paging",
+      "Demand segmentation",
+      "Segmentation with paging",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1512,
+    question:
+      "Which of the following network devices/systems translates data from one format to another?",
+    options: ["Hub", "DHCP Server", "Gateway", "NIC"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1513,
+    question: "Which of the following numerical value is invalid constant?",
+    options: [
+      "assignment operator",
+      "relational operator",
+      "logical operator",
+      "bitwise shift operator",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1514,
+    question:
+      "Which of the following operators allow to define the member functions of a class outside the class?",
+    options: ["?", "?:", "::", ";"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1515,
+    question:
+      "Which of the following page replacement algorithm use the technique of replace that page which is not used in the near future?",
+    options: ["LFU", "LRU", "FIFO", "OPR"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1516,
+    question:
+      "Which of the following page replacement algorithms suffers from Belady's anomaly?",
+    options: ["FIFO", "LRU", "Optimal Page Replacement", "Both LRU and FIFO"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1517,
+    question:
+      "Which of the following plays an important role in modern Operating Systems (OS)?",
+    options: ["Kernel", "Shell", "Fork", "none"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1518,
+    question:
+      "Which of the following process scheduling algorithm may lead to starvation?",
+    options: ["FIFO", "Round Robin", "Shortest Job Next", "none"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1519,
+    question:
+      "Which of the following scheduling algorithms provide minimum average waiting time?",
+    options: [
+      "Round Robin (RR)",
+      "First Come First Serve (FCFS)",
+      "Shortest Job First Scheduling",
+      "None of the above",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1520,
+    question: "Which of the following service is not supported by the OS?",
+    options: [
+      "Compilation",
+      "Protection",
+      "I/O Operation",
+      "None of the above",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1521,
+    question: "Which of the following sorts does not use an array structure?",
+    options: ["Shell sort", "Bucket Sort", "Radix Sort", "Heap Sort"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1522,
+    question: "Which of the following statement is true about an Interface?",
+    options: [
+      "Methods inside Interface can be static, final, native or strictfp.",
+      "Interface can not extend one or more other interface",
+      "Interface cannot implement a class.",
+      "Interface can not be nested inside another interface.",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1523,
+    question:
+      "Which of the following statements are true? I. Shortest remaining time first scheduling may cause starvation II. Preemptive scheduling may cause starvation III. Round robin is better than FCFS in terms of response time",
+    options: ["I only", "I and III only", "II and III only", "I, II and III"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1524,
+    question: "Which of the following statements is false?",
+    options: [
+      "Virtual memory implements the translation of a program’s address space into physical memory address space.",
+      "Virtual memory increases the degree of multiprogramming.",
+      "Virtual memory allows each program to exceed the size of the primary memory.",
+      "Virtual memory reduces the context switching overhead.",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1525,
+    question:
+      "Which of the following systems software does the job of merging the records from two files into one?",
+    options: [
+      "Security software",
+      "Networking software",
+      "Documentation system",
+      "Utility program",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1526,
+    question:
+      "Which of the following TCP/IP protocol is used for transferring electronic mail messages from one machine to another?",
+    options: ["SMTP", "SNMP", "FTP", "RPC"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1527,
+    question:
+      "Which of the following will determine your choice of systems software for your computer?",
+    options: [
+      "Is the application software you want to use compatible with it?",
+      "Is it expensive?",
+      "Is it compatible with your hardware?",
+      "Both 1 and 3",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1528,
+    question:
+      "Which of the methods should be implemented if any class implements the Runnable interface?",
+    options: ["start()", "run()", "wait()", "notify() and notifyAll()"],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1529,
+    question: "Which of the statement is false about an abstract class?",
+    options: [
+      "An abstract class is a class that contains one or more abstract methods.",
+      "An abstract class cannot have normal method.",
+      "An abstract class cannot be instantiated.",
+      "An abstract class can be extended.",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1530,
+    question: "Which of these cannot be declared static?",
+    options: ["class", "variable", "object", "method"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1531,
+    question:
+      "Which of these interface is not a part of Java's collection framework?",
+    options: ["List", "Set", "SortedMap", "SortedList"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1532,
+    question:
+      "Which of these is a mechanism for naming and visibility control of a class and its content?",
+    options: ["Object", "Packages", "Interfaces", "None of the Mentioned"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1533,
+    question: "Which of these is an example of a virtual resource?",
+    options: ["Virtual machine", "Print server", "Virtual memory", "Scanner"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1534,
+    question:
+      "Which of these is not a term describing the collection of Operating Programs?",
+    options: ["Monitor", "Kernel", "Supervisor", "Application"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1535,
+    question:
+      "Which of these is used to access member of class before object of that class is created?",
+    options: ["onlineexam.p>", "static", "private", "protected"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1536,
+    question: "Which of these methods can randomize all elements in a list?",
+    options: ["rand()", "randomize()", "shuffle()", "ambigous()"],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1537,
+    question:
+      "Which one of the following is not a step of requirement engineering?",
+    options: ["elicitation", "design", "analysis", "documentation"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1538,
+    question: "Which one of the following is a Class C IP address?",
+    options: [
+      "10.10.14.118",
+      "191.200.199.199",
+      "135.23.112.57",
+      "204.67.118.54",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1539,
+    question: "Which one of the following is the address generated by CPU?",
+    options: [
+      "physical address",
+      "absolute address",
+      "logical address",
+      "Main memory address",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1540,
+    question:
+      "Which one of the following protocols is NOT used to resolve one form of address to another one?",
+    options: ["ARP", "DHCP", "DNS", "RARP"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1541,
+    question:
+      "Which one of the following scheduler controls the degree of multiprogramming?",
+    options: [
+      "Short Term Scheduler",
+      "Long Term Scheduler",
+      "Medium Term Scheduler",
+      "Average Term Scheduler",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1542,
+    question: "Which operator is used to check object-type at runtime?",
+    options: [
+      "ternary operator",
+      "instanceof operator",
+      "type operator",
+      "length operator",
+    ],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1543,
+    question:
+      "Which OS employs the techniques of fault tolerance and graceful degradation to ensure continuity of operation?",
+    options: [
+      "Batch Processing",
+      "Multi-processor",
+      "Distributed",
+      "Time sharing",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1544,
+    question:
+      "Which protocol working at the Transport layer provides a connectionless service between hosts?",
+    options: ["ARP", "TCP", "IP", "UDP"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1545,
+    question: "Which register can interact with the secondary storage?",
+    options: ["PC", "MAR", "MDR", "IR"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1546,
+    question:
+      "Which statement BEST describes the operation of a negative-edge-triggered D flip-flop?",
+    options: [
+      "The logic level at the D input is transferred to Q on NGT of CLK.",
+      "The Q output is ALWAYS identical to the CLK input if the D input is HIGH.",
+      "The Q output is ALWAYS identical to the D input when CLK = PGT.",
+      "The Q output is ALWAYS identical to the D input.",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1547,
+    question:
+      "Which technique helps processor to run a program concurrently with input output operations?",
+    options: ["IOP", "DMA", "Interrupt driven I/O", "DCA"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1548,
+    question:
+      "Which two methods you need to implement to use an Object as key in HashMap?",
+    options: [
+      "push() and pop()",
+      "get() and set()",
+      "equals() and hashcode()",
+      "put() and get()",
+    ],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1549,
+    question:
+      "Which two models doesn't allow defining requirements early in the cycle?",
+    options: [
+      "Waterfall & RAD",
+      "Prototyping & Spiral",
+      "Prototyping & RAD",
+      "Waterfall & Spiral",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1550,
+    question: "Which type of scheduler is used in batch systems?",
+    options: [
+      "Medium Term Scheduler",
+      "Short Term Scheduler",
+      "Long Term Scheduler",
+      "None of the above",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1551,
+    question:
+      "Which type of scheduler typically uses a FIFO or Priority queue?",
+    options: [
+      "Short Term Scheduler",
+      "Medium Term Scheduler",
+      "Long Term Scheduler",
+      "Job Scheduler",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1552,
+    question: "Who is considered as the creator of JAVA?",
+    options: [
+      "Dennis Richie",
+      "Ken Thompson",
+      "James Gosling",
+      "Bjarne Stroustrup",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1553,
+    question: "Why we need to have secondary storage?",
+    options: [
+      "Store large volume of data that exceed the capacity of main memory",
+      "Perform arithmetic and logical operations",
+      "To give power to the system too",
+      "To help processor in processing",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1554,
+    question: "Wire introduces delay of",
+    options: ["1 ns", "2 ns", "3 ns", "4 ns"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1555,
+    question:
+      "With relocation and limit registers, each logical address must be ______ the limit register.",
+    options: ["less than", "greater than", "equal to", "twice of"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1556,
+    question:
+      "Write Through technique is used in which memory for updating the data?",
+    options: [
+      "Virtual memory",
+      "Main memory",
+      "Auxiliary memory",
+      "Cache memory",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1557,
+    question: "x + x'y =",
+    options: ["x", "y", "x - y", "x + y"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1558,
+    question: "x + xy = x is known as",
+    options: [
+      "inverse law",
+      "commutative law",
+      "distributive law",
+      "absorption law",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1559,
+    question: "X + y = z represents operation that is",
+    options: ["AND", "OR", "NOT", "XOR"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1560,
+    question: "X = 1010100 and Y = 1000011 using 1's complement Y - X is",
+    options: ["-10111", "10111", "-11011", "11011"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1561,
+    question: "X = 1010100 and Y = 1000011 using 2's complement X - Y is",
+    options: ["10111", "101101", "10011", "10001"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1562,
+    question:
+      "You can import only static members of a class present in some other package using ______?",
+    options: [
+      "import keyword",
+      "import static keyword",
+      "package keyword",
+      "static import keyword",
+    ],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1563,
+    question:
+      "You have 10 users plugged into a hub running 10Mbps half-duplex. There is a server connected to the switch running 10Mbps half-duplex as well. How much bandwidth does each host have to the server?",
+    options: ["1 Mbps", "100 kbps", "10 Mbps", "2 Mbps"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1564,
+    question:
+      "You have an IP of 156.233.42.56 with a subnet mask of 7 bits. How many hosts and subnets are possible assuming that subnet 0 is not used?",
+    options: [
+      "126 subnets and 510 hosts",
+      "128 subnets and 512 hosts",
+      "510 subnets and 126 hosts",
+      "512 subnets and 128 hosts",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1565,
+    question:
+      "You have been assigned a network ID of 172.16.0.0/26. If you utilize the first network resulting from this ID, what would be the last legitimate host address in this subnet?",
+    options: ["172.16.0.65", "172.16.0.62", "172.16.0.63", "172.16.0.64"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1566,
+    question: "'Aging registers' are",
+    options: [
+      "Counters which indicate how long ago their associated pages have been referenced",
+      "Registers which keep track of when the program was last accessed",
+      "Counters to keep track of last accessed instruction",
+      "Counters to keep track of the latest data structures referred",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1567,
+    question:
+      "_____ commands are automatically loaded into main memory when the booting process gets completed.",
+    options: [
+      "External",
+      "Internal",
+      "Both Internal & external",
+      "Not internal & not external",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1568,
+    question: "_____ is a system call that causes the caller to block.",
+    options: ["Await", "sleep", "Wakeup", "None of the above"],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1569,
+    question:
+      "_____ occur commonly in multitasking when two or more threads waiting for each other.",
+    options: ["Kernel", "Shell", "Fork", "Deadlock"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1570,
+    question:
+      "_____ process checks to ensure the components of the computer are operating and connected properly.",
+    options: ["Editing", "Saving", "Booting", "None of the above"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1571,
+    question: "_____ holds the address of the next instruction to be executed?",
+    options: [
+      "Accumulator",
+      "Stack Pointer",
+      "Status Register",
+      "Program Counter",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1572,
+    question:
+      "_____ is a special system software that is used to handle process scheduling in different ways.",
+    options: ["Spawn", "Scheduler", "fork", "none"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1573,
+    question:
+      "_____ is a system call that runs an executable file into an existing process.",
+    options: ["fork", "wait", "exec", "None of the above"],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1574,
+    question:
+      "_____ is a technique used to speed up communication with slow devices.",
+    options: ["Fragmentation", "Caching", "Segmentation", "Paging"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1575,
+    question: "_____ is a way of processing data serially.",
+    options: ["spooling", "Paging", "caching", "segmentation"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1576,
+    question:
+      "_____ is mainly responsible for allocating the resources as per process requirement?",
+    options: ["Software", "RAM", "Operating Systems", "Compiler"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1577,
+    question:
+      "_____ is the process of switching of CPU from one thread to another.",
+    options: [
+      "Process handling",
+      "interrupt handling",
+      "Context switching",
+      "none",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1578,
+    question:
+      "_____ is the smallest unit for processing that consists of a program counter, a stack & a set of registers.",
+    options: ["Compiler", "Thread", "Heap", "Stack"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1579,
+    question:
+      "_____ occurs in a dynamic memory allocation system when most of the free blocks are too small to satisfy any request?",
+    options: ["Paging", "Segmentation", "Fragmentation", "none"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1580,
+    question:
+      "_____ provides an interface between the process and the Operating System.",
+    options: [
+      "Synchronization",
+      "System call",
+      "Segmentation",
+      "None of the above",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1581,
+    question:
+      "_____ are required to complete a critical task within a guaranteed amount of time.",
+    options: [
+      "Real Time Operating Systems",
+      "Multi Tasking Operating Systems",
+      "Distributed Operating Systems",
+      "None of the above",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1582,
+    question:
+      "_____ is a classic synchronization problem that involves the allocation of limited resources amongst a group of processes in a deadlock free and starvation free manner.",
+    options: [
+      "Bounded Buffer Problem",
+      "Dining Philosophers Problem",
+      "Readers Writers Problem",
+      "None of the above",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1583,
+    question:
+      "_____ is a system call that returns the process ID of current process.",
+    options: ["getpid", "wait", "getppid", "None of the above"],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1584,
+    question:
+      "_____ is a system call that returns the process ID of the parent of the current process.",
+    options: ["getpid", "wait", "getppid", "None of the above"],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1585,
+    question:
+      "_____ files represent physical devices like printers, terminals etc.",
+    options: [
+      "Ordinary files",
+      "Directory files",
+      "Special files",
+      "None of the above",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1586,
+    question:
+      "_____ is a system call of OS that is used to create a new process?",
+    options: ["Shell", "Kernel", "Fork", "Thread"],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
 ];
 
 export const totalQuestions: number = questions.length;

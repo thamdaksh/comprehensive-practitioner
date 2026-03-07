@@ -15,7 +15,7 @@ export const Search = ({ onBack }: SearchProps) => {
   const [query, setQuery] = useState("");
   const [result, setResult] = useState<Question[] | null>(null);
 
-  const handleSearch = () => {
+  const handleSearch = (): void => {
     const trimmedQuery = query.trim().toLowerCase();
 
     if (trimmedQuery) {
@@ -40,7 +40,6 @@ export const Search = ({ onBack }: SearchProps) => {
             <p className="mr-2">Home</p>
           </Button>
 
-          {/* Input with Clear Button */}
           <div className="relative flex-1">
             <input
               type="text"
@@ -65,7 +64,7 @@ export const Search = ({ onBack }: SearchProps) => {
 
           <Button
             onClick={handleSearch}
-            className="flex items-center rounded-xl border bg-primary-500 text-white px-4 py-2 hover:bg-green-600 transition"
+            className="flex items-center rounded-xl border bg-primary-500 text-primary px-4 py-2 hover:bg-green-600 hover:text-primary transition"
           >
             <MagnifyingGlassIcon className="size-4 mr-1" />
             Search

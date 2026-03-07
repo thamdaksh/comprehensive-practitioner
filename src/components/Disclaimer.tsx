@@ -39,7 +39,7 @@ export const Disclaimer = () => {
       </CardContent>
 
       <CardFooter>
-        <p className="font-bold">Strictly for Education purpose only!</p>
+        <h2 className="font-bold">Strictly for Education purpose only!</h2>
         <p className="font-bold my-4">
           The misuse of this website is strictly prohibited. The creators and
           administrators of this website are not liable for any consequences,
