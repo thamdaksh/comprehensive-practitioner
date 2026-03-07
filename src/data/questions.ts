@@ -645,7 +645,7 @@ export const questions: Question[] = [
     id: 77,
     question:
       "A system is in a ______ state if there exists a set of transactions such that every transaction in the set is waiting for another transaction in the set.",
-    options: ["Idle", "Waiting", "Deadlock", "Deadlock"],
+    options: ["Idle", "Waiting", "Deadlock", "Ready"],
     correctOptionIndex: 2,
   },
   {
@@ -9375,6 +9375,1199 @@ export const questions: Question[] = [
       "Integration testing",
     ],
     correctOptionIndex: 2,
+  },
+  {
+    id: 1090,
+    question: "Individual components are tested is termed as",
+    options: [
+      "Regression testing",
+      "System testing",
+      "Module testing",
+      "Sub-system testing",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1091,
+    question:
+      "Information when is written in cache, both to block in cache and block present in lower-level memory refers to",
+    options: ["Miss rate", "Write-back", "Write-through", "Dirty bit"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1092,
+    question:
+      "Inheritance is the property of object-oriented systems that allows objects to be built from other",
+    options: ["attributes", "objects", "method", "class"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1093,
+    question: "Instability condition can be determined from",
+    options: ["table", "map", "graph", "logic diagram"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1094,
+    question:
+      "Instruction that are used for reading from memory by an IOP called",
+    options: ["Commands", "Pulses", "Blocks", "Interrupt"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1095,
+    question: "int a[10] will occupy ______ number of bits in the memory",
+    options: ["2", "10", "12", "20"],
+    correctOptionIndex: 3,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1096,
+    question: "Internal state and input values altogether are called",
+    options: ["full state", "total state", "initial state", "output state"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1097,
+    question:
+      "Interoperability requirements, legislative requirements are examples of",
+    options: [
+      "organizational requirement",
+      "Product requirements",
+      "External requirements",
+      "Process requirements",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1098,
+    question: "Interprocess communication",
+    options: [
+      "allows processes to synchronize activity",
+      "is required for all processes",
+      "is usually done via disk drives",
+      "is never necessary",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1099,
+    question:
+      "Interrupt latency should be ______ for Real Time Operating Systems (RTOS)",
+    options: ["minimal", "maximum", "zero", "None of the above"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1100,
+    question: "Interrupts form an important part of ______ systems",
+    options: [
+      "Batch processing",
+      "Multitasking",
+      "Real-time processing",
+      "Multi-user",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1101,
+    question: "ISO recommended international testing condition is",
+    options: [
+      "20°C & 65% RH",
+      "30°C & 65% RH",
+      "20°C & 75% RH",
+      "30°C & 75% RH",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1102,
+    question: "J = K = 0 will make flip-flops",
+    options: ["changed", "reversed", "unchanged", "stopped"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1103,
+    question: "Java source codes are compiled and converted to",
+    options: ["Objectcodes", "Assemblycodes", "Binarycodes", "Bytecodes"],
+    correctOptionIndex: 3,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1104,
+    question: "Kruskal algorithm follows ______ approach",
+    options: [
+      "Divide and Conquer",
+      "Dynamic programming",
+      "Greedy",
+      "Backtracking",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1105,
+    question: "Lamp handball game uses application of",
+    options: [
+      "unidirectional shift register",
+      "bidirectional shift register",
+      "serial shift register",
+      "parallel shift register",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1106,
+    question: "Latches are",
+    options: [
+      "level triggered",
+      "edge triggered",
+      "clock triggered",
+      "pulse triggered",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1107,
+    question: "Late delivery of hardware or support software is an example for",
+    options: [
+      "product risk",
+      "people risk",
+      "technology risk",
+      "organizational risk",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1108,
+    question: "Layer-2 Switch is also called",
+    options: [
+      "Multiport Hub",
+      "Multiport Switch",
+      "Multiport Bridge",
+      "Multiport NIC",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1109,
+    question: "LED stands for",
+    options: [
+      "light emitting diode",
+      "light emitting device",
+      "light electronic diode",
+      "light electronic device",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1110,
+    question: "Left most position in lamp handball game is the",
+    options: ["wall", "fence", "ball", "indicator"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1111,
+    question:
+      "Let the page fault service time be 10ms and memory access time be 20ns. If one page fault occurs every 10^6 accesses, effective access time is",
+    options: ["21ns", "30ns", "23ns", "35ns"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1112,
+    question:
+      "Let the time taken to switch between user and kernel modes be t1 and switching between processes be t2. Which is true?",
+    options: ["t1 > t2", "t1 = t2", "t1 < t2", "Cannot be determined"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1113,
+    question: "Linear arrays are also called",
+    options: [
+      "Straight line array",
+      "One-dimensional array",
+      "Vertical array",
+      "Horizontal array",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1114,
+    question: "Links between dependent requirements refers to",
+    options: [
+      "Design traceability",
+      "Requirement traceability",
+      "Source traceability",
+      "Feature traceability",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1115,
+    question:
+      "Links from the requirements to the design refers to ______ traceability",
+    options: ["Design", "Requirements", "Source", "Destination"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1116,
+    question: "Logic probe is used for",
+    options: ["testing", "debugging", "monitoring", "controlling"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1117,
+    question: "Long Term Scheduler is a",
+    options: [
+      "CPU scheduler",
+      "process swapping scheduler",
+      "job scheduler",
+      "None of the above",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1118,
+    question: "M flip-flops produces",
+    options: ["2^m-1 states", "2-1 states", "2^m+1 states", "2^m states"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1119,
+    question: "Individual components are tested is termed as",
+    options: [
+      "Regression testing",
+      "System testing",
+      "Module testing",
+      "Sub-system testing",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1120,
+    question:
+      "Information when is written in cache, both to block in cache and block present in lower-level memory refers to",
+    options: ["Miss rate", "Write-back", "Write-through", "Dirty bit"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1121,
+    question:
+      "Inheritance is the property of object-oriented systems that allows objects to be built from other",
+    options: ["attributes", "objects", "method", "class"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1122,
+    question: "Instability condition can be determined from",
+    options: ["table", "map", "graph", "logic diagram"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1123,
+    question:
+      "Instruction that are used for reading from memory by an IOP called",
+    options: ["Commands", "Pulses", "Blocks", "Interrupt"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1124,
+    question: "int a[10] will occupy ______ number of bits in the memory",
+    options: ["2", "10", "12", "20"],
+    correctOptionIndex: 3,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1125,
+    question: "Internal state and input values altogether are called",
+    options: ["full state", "total state", "initial state", "output state"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1126,
+    question:
+      "Interoperability requirements, legislative requirements are examples of",
+    options: [
+      "organizational requirement",
+      "Product requirements",
+      "External requirements",
+      "Process requirements",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1127,
+    question: "Interprocess communication",
+    options: [
+      "allows processes to synchronize activity",
+      "is required for all processes",
+      "is usually done via disk drives",
+      "is never necessary",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1128,
+    question:
+      "Interrupt latency should be ______ for Real Time Operating Systems (RTOS)",
+    options: ["minimal", "maximum", "zero", "None of the above"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1129,
+    question: "Interrupts form an important part of ______ systems",
+    options: [
+      "Batch processing",
+      "Multitasking",
+      "Real-time processing",
+      "Multi-user",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1130,
+    question: "ISO recommended international testing condition is",
+    options: [
+      "20°C & 65% RH",
+      "30°C & 65% RH",
+      "20°C & 75% RH",
+      "30°C & 75% RH",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1131,
+    question: "J = K = 0 will make flip-flops",
+    options: ["changed", "reversed", "unchanged", "stopped"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1132,
+    question: "Java source codes are compiled and converted to",
+    options: ["Objectcodes", "Assemblycodes", "Binarycodes", "Bytecodes"],
+    correctOptionIndex: 3,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1133,
+    question: "Kruskal algorithm follows ______ approach",
+    options: [
+      "Divide and Conquer",
+      "Dynamic programming",
+      "Greedy",
+      "Backtracking",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1134,
+    question: "Lamp handball game uses application of",
+    options: [
+      "unidirectional shift register",
+      "bidirectional shift register",
+      "serial shift register",
+      "parallel shift register",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1135,
+    question: "Latches are",
+    options: [
+      "level triggered",
+      "edge triggered",
+      "clock triggered",
+      "pulse triggered",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1136,
+    question: "Late delivery of hardware or support software is an example for",
+    options: [
+      "product risk",
+      "people risk",
+      "technology risk",
+      "organizational risk",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1137,
+    question: "Layer-2 Switch is also called",
+    options: [
+      "Multiport Hub",
+      "Multiport Switch",
+      "Multiport Bridge",
+      "Multiport NIC",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1138,
+    question: "LED stands for",
+    options: [
+      "light emitting diode",
+      "light emitting device",
+      "light electronic diode",
+      "light electronic device",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1139,
+    question: "Left most position in lamp handball game is the",
+    options: ["wall", "fence", "ball", "indicator"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1140,
+    question:
+      "Let the page fault service time be 10ms and memory access time be 20ns. If one page fault occurs every 10^6 accesses, effective access time is",
+    options: ["21ns", "30ns", "23ns", "35ns"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1141,
+    question:
+      "Let the time taken to switch between user and kernel modes be t1 and switching between processes be t2. Which is true?",
+    options: ["t1 > t2", "t1 = t2", "t1 < t2", "Cannot be determined"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1142,
+    question: "Linear arrays are also called",
+    options: [
+      "Straight line array",
+      "One-dimensional array",
+      "Vertical array",
+      "Horizontal array",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1143,
+    question: "Links between dependent requirements refers to",
+    options: [
+      "Design traceability",
+      "Requirement traceability",
+      "Source traceability",
+      "Feature traceability",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1144,
+    question:
+      "Links from the requirements to the design refers to ______ traceability",
+    options: ["Design", "Requirements", "Source", "Destination"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1145,
+    question: "Logic probe is used for",
+    options: ["testing", "debugging", "monitoring", "controlling"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1146,
+    question: "Long Term Scheduler is a",
+    options: [
+      "CPU scheduler",
+      "process swapping scheduler",
+      "job scheduler",
+      "None of the above",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1147,
+    question: "M flip-flops produces",
+    options: ["2^m-1 states", "2-1 states", "2^m+1 states", "2^m states"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1148,
+    question: "Main function of shared memory is",
+    options: [
+      "to use primary memory efficiently",
+      "to do intra process communication",
+      "to do inter process communication",
+      "to use secondary memory efficiently",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1149,
+    question: "Making of transition table consists of",
+    options: ["2 steps", "4 steps", "5 steps", "6 steps"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1150,
+    question:
+      "Mandating a particular IDE, programming language or development method are examples of",
+    options: [
+      "product requirements",
+      "process requirements",
+      "organisational requirement",
+      "benchmarks",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1151,
+    question: "Match the following: A. Repeaters B. Bridges C. Routers",
+    options: [
+      "A → 3, B → 1, C → 2",
+      "A → 2, B → 3, C → 1",
+      "A → 3, B → 2, C → 1",
+      "A → 1, B → 2, C → 3",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1152,
+    question: "Match the following: 1. Segments 2. Packets 3. Frames",
+    options: [
+      "1 → A, 2 → B, 3 → C",
+      "1 → A, 2 → C, 3 → B",
+      "1 → C, 2 → A, 3 → B",
+      "1 → C, 2 → B, 3 → A",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1153,
+    question: "MAX heap can be used to sort the data in an",
+    options: [
+      "Ascending order",
+      "Descending order",
+      "Both ascending or descending order",
+      "Random order",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1154,
+    question: "Maxterms are also called",
+    options: [
+      "standard sum",
+      "standard product",
+      "standard division",
+      "standard subtraction",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1155,
+    question: "Medium term scheduler is based on",
+    options: [
+      "Scroll in, Scroll out",
+      "Fetch in, Fetch out",
+      "Swap in, Swap out",
+      "None of the above",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1156,
+    question: "Memory management is",
+    options: [
+      "not used in modern operating system",
+      "replaced with virtual memory on current systems",
+      "not used on multiprogramming systems",
+      "critical for even the simplest operating systems",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1157,
+    question: "Memory that is called a read write memory is",
+    options: ["ROM", "EPROM", "RAM", "Registers"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1158,
+    question: "Memory unit accessed by content is called",
+    options: [
+      "Read only memory",
+      "Programmable memory",
+      "Virtual memory",
+      "Associative memory",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1159,
+    question: "Message queuing is managed by",
+    options: ["Shell", "Kernel", "Fork", "None of the above"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1160,
+    question:
+      "Minimum number of queues required for priority queue implementation",
+    options: ["5", "4", "3", "2"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1161,
+    question:
+      "Misunderstandings between software users and developers are exposed by",
+    options: ["white box testing", "testing", "coding", "prototyping"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1162,
+    question: "Momentary change in state of flipflop is called",
+    options: ["feedback path", "tri state", "signals", "trigger"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1163,
+    question: "Most preceded operator is",
+    options: ["parenthesis", "AND", "OR", "NOT"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1164,
+    question: "Most significant bit of arithmetic addition is called",
+    options: ["overflow", "carry", "output", "zero bit"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1165,
+    question: "Mostly gates works on",
+    options: ["5 V", "4 V", "3 V", "2 V"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1166,
+    question: "Multiple inheritance is not supported in Java because",
+    options: [
+      "To remove ambiguity and provide more maintainable and clear design",
+      "Java is a Object oriented language",
+      "Multiple inheritance is not an important feature",
+      "All of above",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1167,
+    question: "Multiple variable xor is defined as",
+    options: [
+      "inverted or function",
+      "prime function",
+      "even function",
+      "odd function",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1168,
+    question: "Multiprogramming systems",
+    options: [
+      "Are easier to develop than single programming systems",
+      "Execute each job faster",
+      "Are used only on large mainframe computers",
+      "Execute more jobs in the same time period",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1169,
+    question: "MVC stands for",
+    options: [
+      "Memento View Controller",
+      "Model View Controller",
+      "Model View Component",
+      "Movie View Controller",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1170,
+    question: "Naming states is done in",
+    options: [
+      "transition table",
+      "stable state",
+      "flow table",
+      "excitation table",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1171,
+    question: "NAND latch works when both inputs are",
+    options: ["1", "0", "inverted", "dont cares"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1172,
+    question: "Negative transition in flip-flops are referred to as",
+    options: [
+      "clock",
+      "negative edge",
+      "positive edge",
+      "positive edge and negative edge",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1173,
+    question: "Next state of B(t) will be",
+    options: ["B(t-1)", "B(t+1)", "B(t-2)", "B(t+2)"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1174,
+    question: "No of NAND gate is",
+    options: ["7000", "7200", "7400", "7600"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1175,
+    question: "Nor function is dual of",
+    options: ["and function", "or function", "xor function", "nand function"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1176,
+    question: "Not operation is obtained by using one input",
+    options: ["AND gate", "OR gate", "NAND gate", "XOR gate"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1177,
+    question: "Nouns in the textual description are considered to be",
+    options: ["Methods", "Class", "File", "Node"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1178,
+    question: "Objects are grouped into",
+    options: ["Classes", "Methods", "Procedures", "Records"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1179,
+    question:
+      "Old, valuable systems must be maintained and updated are termed as",
+    options: [
+      "Normalized system",
+      "Concurrent systems",
+      "Distributed systems",
+      "Legacy systems",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1180,
+    question: "One hex digit is sometimes referred to as a",
+    options: ["byte", "nibble", "grouping", "instruction"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1181,
+    question: "One that is not postulate of Boolean algebra",
+    options: ["commutative", "duality", "associative", "identity element"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1182,
+    question: "One that shows distributive law of addition over multiplication",
+    options: [
+      "x+(y.z)=(x.y)+(x.z)",
+      "x+(y.z)=(x+y).(x+z)",
+      "x+(y.z)=(x.y).(x+z)",
+      "x.(y+z)=(x+y).(x+z)",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1183,
+    question:
+      "One userlevel thread is mapped to many kernel level thread is known as",
+    options: [
+      "One to Many model",
+      "One to One model",
+      "Many to One model",
+      "None of the above",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1184,
+    question: "Operating System maintains the page table for",
+    options: [
+      "each process",
+      "each thread",
+      "each instruction",
+      "each address",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1185,
+    question: "OR gates are converted to NAND gates using",
+    options: ["invert OR", "AND invert", "NAND invert", "EX-OR"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1186,
+    question: "Outputs of SR latch are",
+    options: ["x and y", "a and b", "s and r", "q and q'"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1187,
+    question:
+      "Packets wait in a buffer (queue) until node is ready to process them in",
+    options: [
+      "Out-of-Order Ones",
+      "First-in First out",
+      "Out-of-Reach Ones",
+      "First-in-First Ones",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1188,
+    question: "Page fault occurs when",
+    options: [
+      "When a requested page is in memory",
+      "When a requested page is not in memory",
+      "When a page is corrupted",
+      "When an exception is thrown",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1189,
+    question: "Page stealing",
+    options: [
+      "is a sign of an efficient system",
+      "should be the tuning goal",
+      "is taking page frames from other working sets",
+      "is taking larger disk spaces for pages paged out",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1190,
+    question:
+      "Page table level that says if page has been modified is known as",
+    options: ["Presence", "Dirty", "Read/Write", "Page size"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1191,
+    question: "Parallel load transfer is done in",
+    options: ["1 cycle", "2 cycle", "3 cycle", "4 cycle"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1192,
+    question: "Parity checker is used for",
+    options: ["detection", "testing", "debugging", "error"],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1193,
+    question: "PC Program Counter is also called",
+    options: [
+      "instruction pointer",
+      "memory pointer",
+      "data counter",
+      "file pointer",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1194,
+    question: "Physical memory is divided into sets of finite size called as",
+    options: ["Frames", "Pages", "Blocks", "Vectors"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1195,
+    question: "Pipeline implement",
+    options: [
+      "fetch instruction",
+      "decode instruction",
+      "fetch operand",
+      "calculate operand",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1196,
+    question: "PLA stands for",
+    options: [
+      "programmable lead array",
+      "programmable logic agency",
+      "predicted logic array",
+      "programmable logic array",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1197,
+    question: "Poor relationships amongst team member is ______ risk",
+    options: ["product", "people", "business", "technology"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1198,
+    question:
+      "Pre-emptive scheduling is the strategy of temporarily suspending a running process",
+    options: [
+      "to allow starving processes to run",
+      "before the CPU time slice expires",
+      "when it requests I/O",
+      "to avoid collision",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1199,
+    question:
+      "Predict Output, if the below code is run with given command\nCommand Line: java myprog good morning everyone",
+    options: ["myprog", "good", "morning", "everyone"],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1200,
+    question:
+      "Predict the output of following C++ program involving sizeof(empty class)",
+    options: ["A non-zero value", "Compiler Error", "Runtime Error", "0"],
+    correctOptionIndex: 0,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1201,
+    question:
+      "Predict the output of following program involving class A and class B",
+    options: [
+      "Compiler Error in show() because x is protected in class A",
+      "Compiler Error in show() because y is private in class B",
+      "Program runs successfully",
+      "Runtime Error",
+    ],
+    correctOptionIndex: 1,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1202,
+    question: "Present states of asynchronous circuits are also called",
+    options: [
+      "secondary variables",
+      "primary variables",
+      "excitation variables",
+      "short term memory",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1203,
+    question: "Prim's algorithm follows ______ search",
+    options: ["Global", "Local", "Binary", "Linear"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1204,
+    question: "Primed or unprimed variable is",
+    options: ["map", "logic gates", "literal", "graph"],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1205,
+    question: "Process Control Block (PCB) is also called",
+    options: [
+      "Program Control Block",
+      "Memory Control Block",
+      "Task Control Block",
+      "None of the above",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1206,
+    question:
+      "Producer – Consumer problem, one of the classical problems of synchronization is also called",
+    options: [
+      "Bounded Buffer Problem",
+      "Readers Writers Problem",
+      "Dining Philosophers Problem",
+      "None of the above",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1207,
+    question: "Product of 1011 and 101",
+    options: ["110111", "110011", "111011", "111100"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1208,
+    question: "Program always deals with",
+    options: [
+      "logical address",
+      "physical address",
+      "absolute address",
+      "relative address",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1209,
+    question: "Prototyping is an important technique of",
+    options: [
+      "requirements validation",
+      "requirement specification",
+      "feasibility study",
+      "coding",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1210,
+    question: "PSW is saved in stack when there is a",
+    options: [
+      "interrupt recognised",
+      "execution of RST instruction",
+      "Execution of CALL instruction",
+      "Execution of RET instruction",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1211,
+    question: "Which of these will create and start this thread?",
+    options: [
+      "new Runnable(MyRunnable).start();",
+      "new Thread(MyRunnable).run();",
+      "new Thread(new MyRunnable()).start();",
+      "new MyRunnable().start();",
+    ],
+    correctOptionIndex: 2,
+    isQuestionContainsCoding: true,
+  },
+  {
+    id: 1212,
+    question: "Purpose of process is to deliver software",
+    options: [
+      "in time",
+      "with acceptable quality",
+      "that is cost efficient",
+      "both a & b",
+    ],
+    correctOptionIndex: 3,
+  },
+  {
+    id: 1213,
+    question: "Race condition is present in",
+    options: [
+      "synchronous logic circuit",
+      "asynchronous logic circuit",
+      "ideal logic circuit",
+      "both a and b",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1214,
+    question: "Race in which stable state depends on order is called",
+    options: [
+      "critical race",
+      "identical race",
+      "non critical race",
+      "defined race",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1215,
+    question:
+      "Rate of movement of light in lamp handball game is determined by clock's",
+    options: ["input", "frequency", "voltage", "current"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1216,
+    question: "Rather than AND-OR gates combinational circuits are made by",
+    options: ["NAND-NOR", "NAND-OR", "OR only", "AND only"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1217,
+    question: "Recursion is sometimes called",
+    options: [
+      "Circular definition",
+      "Complex definition",
+      "Procedure",
+      "Union",
+    ],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1218,
+    question:
+      "Reduction of flip-flops in a sequential circuit is referred to as",
+    options: ["reduction", "state reduction", "next state", "Assignment"],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1219,
+    question: "Register renaming is done in pipelined processors",
+    options: [
+      "as an alternative to register allocation at compile time",
+      "for efficient access to function parameters and local variables",
+      "to handle certain kinds of hazards",
+      "as part of address translation",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1220,
+    question: "Relationship between clock output and master slave output gives",
+    options: ["timing diagram", "map", "chart", "table"],
+    correctOptionIndex: 0,
+  },
+  {
+    id: 1221,
+    question:
+      "Reliability, Response time and Storage requirements are examples of",
+    options: [
+      "design constraint",
+      "functional requirement",
+      "non functional requirement",
+      "process standard",
+    ],
+    correctOptionIndex: 2,
+  },
+  {
+    id: 1222,
+    question: "Representation of 8620 in binary is",
+    options: [
+      "1000_0111_1110_0000",
+      "1000_0110_0010_0000",
+      "1000_0110_1010_0000",
+      "1011_0110_0010_0000",
+    ],
+    correctOptionIndex: 1,
+  },
+  {
+    id: 1223,
+    question: "Requirements can be refined using",
+    options: [
+      "The waterfall model",
+      "prototyping model",
+      "the evolutionary model",
+      "the spiral model",
+    ],
+    correctOptionIndex: 1,
   },
 ];
 
