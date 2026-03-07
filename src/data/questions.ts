@@ -3,6 +3,7 @@ export interface Question {
   question: string;
   options: string[];
   correctOptionIndex: number;
+  coding?: string;
   isQuestionContainsCoding?: boolean;
 }
 
@@ -1440,7 +1441,8 @@ export const questions: Question[] = [
   {
     id: 166,
     question:
-      "What will be the output of the following program?\nclass B\n{\nstatic int count = 100;\npublic void increment()\n{\ncount++; }\npublic static void main(String []args)\n{\nB b1 = new B();\nb1.increment();\nB b2 = new B();\nSystem.out.println(b2.count); } }",
+      "What will be the output of the following program?",
+    coding: "\nclass B {\nstatic int count = 100;\npublic void increment()\n{\ncount++; }\npublic static void main(String []args)\n{\nB b1 = new B();\nb1.increment();\nB b2 = new B();\nSystem.out.println(b2.count); } }",
     options: ["100", "101", "3", "error"],
     correctOptionIndex: 1,
     isQuestionContainsCoding: true,
