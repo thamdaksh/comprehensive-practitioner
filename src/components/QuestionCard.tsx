@@ -19,7 +19,7 @@ export const QuestionCard = ({
       if (questionObject.coding) {
         const formatted = await prettify(questionObject.coding);
         setFormattedCode(formatted);
-        console.log(formatted)
+        console.log(formatted);
       }
     }
 
@@ -35,7 +35,11 @@ export const QuestionCard = ({
             questionObject.coding ? (
               <>
                 <p>{questionObject.question}</p>
-                <pre>{formattedCode ?? questionObject.coding}</pre>
+                <pre className="text-sm sm:text-[8px]">
+                  <code className="text-xs sm:text-sm">
+                    {formattedCode ?? questionObject.coding}
+                  </code>
+                </pre>
               </>
             ) : (
               <pre>{questionObject.question}</pre>
