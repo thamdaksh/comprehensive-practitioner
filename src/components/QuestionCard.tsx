@@ -19,7 +19,6 @@ export const QuestionCard = ({
       if (questionObject.coding) {
         const formatted = await prettify(questionObject.coding);
         setFormattedCode(formatted);
-        console.log(formatted);
       }
     }
 

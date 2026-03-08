@@ -25,7 +25,6 @@ export const Test = ({
         if (currentQuestion.coding) {
           const formatted = await prettify(currentQuestion.coding);
           setFormattedCode(formatted);
-          console.log(formatted);
         }
       }
   
