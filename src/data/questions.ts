@@ -198,7 +198,7 @@ export const questions: Question[] = [
       "Abstract level",
       "Application Level",
       "Implementation Level",
-      "Interprating Level",
+      "Interpreting Level",
     ],
     correctOptionIndex: 2,
   },
@@ -1440,17 +1440,18 @@ export const questions: Question[] = [
   },
   {
     id: 166,
-    question:
-      "What will be the output of the following program?",
-    coding: "\nclass B {\nstatic int count = 100;\npublic void increment()\n{\ncount++; }\npublic static void main(String []args)\n{\nB b1 = new B();\nb1.increment();\nB b2 = new B();\nSystem.out.println(b2.count); } }",
+    question: "What will be the output of the following program?",
+    coding:
+      "\nclass B {\nstatic int count = 100;\npublic void increment()\n{\ncount++; }\npublic static void main(String []args)\n{\nB b1 = new B();\nb1.increment();\nB b2 = new B();\nSystem.out.println(b2.count); } }",
     options: ["100", "101", "3", "error"],
     correctOptionIndex: 1,
     isQuestionContainsCoding: true,
   },
   {
     id: 167,
-    question:
-      'What will be the Output?\nclass Animal\n{\nString name = "animal";\nString makeNoise() { return "generic noise"; }\n}\nclass Dog extends Animal\n{\nString name = "dog";\nString makeNoise() { return "bark"; }\n}\npublic class Test\n{\npublic static void main(String[] args)\n{\n}\nAnimal an = new Dog();\nSystem.out.println(an.name+" "+an.makeNoise());\n}',
+    question: "What will be the Output?",
+    coding:
+      '\nclass Animal {\nString name = "animal";\nString makeNoise() { \nreturn "generic noise"; \n}\n}\nclass Dog extends Animal {\nString name = "dog";\nString makeNoise() { \nreturn "bark"; \n}\n}public class Test { public static void main(String[] args)\n{\nAnimal an = new Dog();\nSystem.out.println(an.name+" "+an.makeNoise());\n}\n}',
     options: [
       "animal generic noise",
       "animal bark",
@@ -1516,8 +1517,9 @@ export const questions: Question[] = [
   },
   {
     id: 173,
-    question:
-      "#include <iostream>\nusing namespace std;\nint main ()\n{\ncout << (3 > 4 && 3 > 1) << endl;\nreturn 0;\n}",
+    question: "",
+    coding:
+      "#include <iostream>\nusing namespace std;\nint main () {\n cout << (3 > 4 && 3 > 1) << endl;\n return 0;\n}",
     options: ["0", "1", "error", "10"],
     correctOptionIndex: 0,
     isQuestionContainsCoding: true,
@@ -2213,7 +2215,7 @@ export const questions: Question[] = [
   },
   {
     id: 252,
-    question: "Using 10's complement 72532 − 3250 is",
+    question: "Using 10's complement 72532 - 3250 is",
     options: ["69282", "69272", "69252", "69232"],
     correctOptionIndex: 0,
   },
@@ -2962,7 +2964,7 @@ export const questions: Question[] = [
   {
     id: 350,
     question:
-      "Match the following − (1) Bubble Sort (A) O(n), (2) Shell Sort (B) O(n2), (3) Selection Sort (C) O(n log n)",
+      "Match the following - (1) Bubble Sort (A) O(n), (2) Shell Sort (B) O(n2), (3) Selection Sort (C) O(n log n)",
     options: [
       "1 → A, 2 → B, 3 → C",
       "1 → B, 2 → C, 3 → A",
@@ -3029,7 +3031,7 @@ export const questions: Question[] = [
   },
   {
     id: 358,
-    question: "An adaptive sorting algorithm –",
+    question: "An adaptive sorting algorithm -",
     options: [
       "adapts to new computers",
       "takes advantage of already sorted elements",
@@ -3067,7 +3069,7 @@ export const questions: Question[] = [
     options: [
       "Tower of Hanoi",
       "Ackermann’s function",
-      "Tower of Hanoi and Ackermann’s function both",
+      "Tower of Hanoi and Ackermann's function both",
       "None",
     ],
     correctOptionIndex: 1,
@@ -3586,10 +3588,10 @@ export const questions: Question[] = [
     question:
       "The number of elements in array Array[l1:u1, l2:u2, l3:u3] is given by",
     options: [
-      "(u1- l1 – 1)(u2 – l2 - 1)(u3 – l3 - 1)",
+      "(u1- l1 - 1)(u2 - l2 - 1)(u3 - l3 - 1)",
       "(u1*u2*u3)",
-      "(u1 – l1)(u2 – l2)(u3-l3)",
-      "(u1- l1 + 1)(u2 – l2 + 1)(u3 – l3 + 1)",
+      "(u1 - l1)(u2 - l2)(u3-l3)",
+      "(u1- l1 + 1)(u2 - l2 + 1)(u3 - l3 + 1)",
     ],
     correctOptionIndex: 3,
   },
@@ -3597,10 +3599,10 @@ export const questions: Question[] = [
     id: 425,
     question: "The number of elements in array Array[l1:u1, l2:u2] is given by",
     options: [
-      "(u1- l1 – 1)(u2 – l2 - 1)",
+      "(u1- l1 - 1)(u2 - l2 - 1)",
       "(u1*u2)",
-      "(u1 – l1)(u2 – l2)",
-      "(u1- l1 + 1)(u2 – l2 + 1)",
+      "(u1 - l1)(u2 - l2)",
+      "(u1- l1 + 1)(u2 - l2 + 1)",
     ],
     correctOptionIndex: 3,
   },
@@ -3824,7 +3826,7 @@ export const questions: Question[] = [
   {
     id: 451,
     question: "The number of elements in array Array[1:u] is given by",
-    options: ["(1 - u)", "(u)", "(u – 1 + 1)", "(u – 1 - 1)"],
+    options: ["(1 - u)", "(u)", "(u - 1 + 1)", "(u - 1 - 1)"],
     correctOptionIndex: 1,
   },
   {
@@ -4270,7 +4272,7 @@ export const questions: Question[] = [
   {
     id: 506,
     question:
-      "__________ is a procedural extension of Oracle – SQL that offers language constructs similar to those in imperative programming languages.",
+      "__________ is a procedural extension of Oracle - SQL that offers language constructs similar to those in imperative programming languages.",
     options: ["SQL", "PL/SQL", "Advanced SQL", "PQL"],
     correctOptionIndex: 1,
   },
@@ -4693,7 +4695,7 @@ export const questions: Question[] = [
   },
   {
     id: 551,
-    question: "An adaptive sorting algorithm –",
+    question: "An adaptive sorting algorithm -",
     options: [
       "adapts to new computers",
       "takes advantage of already sorted elements",
@@ -7250,7 +7252,7 @@ export const questions: Question[] = [
   {
     id: 843,
     question:
-      "A computer has twenty physical page frames which contain pages numbered 101 through 120. Now a program accesses pages 1–100 sequentially and repeats the sequence thrice. Which page replacement policy experiences the same number of page faults as the optimal policy?",
+      "A computer has twenty physical page frames which contain pages numbered 101 through 120. Now a program accesses pages 1-100 sequentially and repeats the sequence thrice. Which page replacement policy experiences the same number of page faults as the optimal policy?",
     options: [
       "Last-in-first-out",
       "First-in-first-out",
@@ -8052,7 +8054,7 @@ export const questions: Question[] = [
   {
     id: 939,
     question:
-      'Consider the following code fragment:\nif (fork() == 0) { a = a + 5; printf("%d,%d\\n", a, &a); }\nelse { a = a -5; printf("%d,%d\\n", a, &a); }\nWhich is TRUE about values printed?',
+      'Consider the following code fragment:\nif (fork() == 0) { \na = a + 5; \nprintf("%d,%d\\n", a, &a); \n}\nelse { \na = a -5; \nprintf("%d,%d\\n", a, &a); \n}\nWhich is TRUE about values printed?',
     options: [
       "u = x + 10 and v = y",
       "u = x + 10 and v != y",
@@ -8064,8 +8066,9 @@ export const questions: Question[] = [
   },
   {
     id: 940,
-    question:
-      'Consider the following code snippet:\nString str = new String("Java");\nchar fourthChar = str.charAt(4);\nWhat happens?',
+    question: "Consider the following code snippet:",
+    coding:
+      '\nString str = new String("Java");\nchar fourthChar = str.charAt(4);\nWhat happens?',
     options: [
       "'a'",
       "'v'",
@@ -8517,8 +8520,9 @@ export const questions: Question[] = [
   },
   {
     id: 993,
-    question:
-      "Fill in the blank to compile the code successfully.\nabstract class A { int a = 100; public abstract void showA(); }\npublic class B extends A { ______ // Fill the blank }",
+    question: "Fill in the blank to compile the code successfully.",
+    coding:
+      "\nabstract class A {\n int a = 100;\n public abstract void showA(); \n}\npublic class B extends A { \n ______ // Fill the blank\n}",
     options: [
       "abstract void showA() { }",
       "void showA() { }",
@@ -8685,24 +8689,27 @@ export const questions: Question[] = [
   },
   {
     id: 1012,
-    question:
-      "Given the code snippet:\nint salaries[];\nint index = 0;\nsalaries = new int[4];\nwhile(index < 4){ salaries[index] = 10000; index++; }\nWhat is value of salaries[3]?",
+    question: "Given the code snippet:",
+    coding:
+      "\nint salaries[];\nint index = 0;\nsalaries = new int[4];\nwhile(index < 4){\n salaries[index] = 10000;\n index++;\n}\nWhat is value of salaries[3]?",
     options: ["10000", "40000", "4000", "15000"],
     correctOptionIndex: 0,
     isQuestionContainsCoding: true,
   },
   {
     id: 1013,
-    question:
-      "Given the following code, which line will generate an error?\nclass Test { static int x = 100; // line 3\nint y = 200; // line 4\npublic static void main(String []args){ final int z; // line 7\nz = x + y; // line 8\nSystem.out.println(z); }}",
+    question: "Given the following code, which line will generate an error?",
+    coding:
+      "\nclass Test {\n static int x = 100; // line 3\n int y = 200; // line 4\npublic static void main(String []args) {\n final int z; // line 7\nz = x + y; // line 8\nSystem.out.println(z);\n }\n}",
     options: ["line 3", "line 4", "line 7", "line 8"],
     correctOptionIndex: 3,
     isQuestionContainsCoding: true,
   },
   {
     id: 1014,
-    question:
-      "Given the declarations: interface A {}, class B {}, class C extends B implements A {}, class D implements A {}. Which assignment is legal?",
+    question: "Given the declarations:",
+    coding:
+      "interface A {},\nclass B {},\nclass C extends B implements A {},\nclass D implements A {}.\nWhich assignment is legal?",
     options: ["c = d;", "d = c;", "A a = d;", "d = (D)c;"],
     correctOptionIndex: 2,
     isQuestionContainsCoding: true,
@@ -8739,7 +8746,7 @@ export const questions: Question[] = [
     id: 1018,
     question:
       "Match scheduling algorithms with applications: (P) Gang Scheduling (Q) Rate Monotonic Scheduling (R) Fair Share Scheduling",
-    options: ["P–3 Q–2 R–1", "P–1 Q–2 R–3", "P–2 Q–3 R–1", "P–1 Q–3 R–2"],
+    options: ["P-3 Q-2 R-1", "P-1 Q-2 R-3", "P-2 Q-3 R-1", "P-1 Q-3 R-2"],
     correctOptionIndex: 0,
   },
   {
@@ -8787,7 +8794,7 @@ export const questions: Question[] = [
   {
     id: 1024,
     question:
-      "How many 32K × 1 RAM chips are needed to provide memory capacity of 256K-bytes?",
+      "How many 32K x 1 RAM chips are needed to provide memory capacity of 256K-bytes?",
     options: ["8", "32", "64", "128"],
     correctOptionIndex: 2,
   },
@@ -8980,7 +8987,6 @@ export const questions: Question[] = [
       "None of the above",
     ],
     correctOptionIndex: 1,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1047,
@@ -9421,7 +9427,6 @@ export const questions: Question[] = [
     question: "int a[10] will occupy ______ number of bits in the memory",
     options: ["2", "10", "12", "20"],
     correctOptionIndex: 3,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1096,
@@ -9492,7 +9497,6 @@ export const questions: Question[] = [
     question: "Java source codes are compiled and converted to",
     options: ["Objectcodes", "Assemblycodes", "Binarycodes", "Bytecodes"],
     correctOptionIndex: 3,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1104,
@@ -9675,7 +9679,6 @@ export const questions: Question[] = [
     question: "int a[10] will occupy ______ number of bits in the memory",
     options: ["2", "10", "12", "20"],
     correctOptionIndex: 3,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1125,
@@ -9746,7 +9749,6 @@ export const questions: Question[] = [
     question: "Java source codes are compiled and converted to",
     options: ["Objectcodes", "Assemblycodes", "Binarycodes", "Bytecodes"],
     correctOptionIndex: 3,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1133,
@@ -10332,24 +10334,24 @@ export const questions: Question[] = [
   },
   {
     id: 1199,
-    question:
-      "Predict Output, if the below code is run with given command\nCommand Line: java myprog good morning everyone",
+    question: "Predict Output, if the below code is run with given command",
+    coding: "\nCommand Line: java myprog good morning everyone",
     options: ["myprog", "good", "morning", "everyone"],
     correctOptionIndex: 2,
     isQuestionContainsCoding: true,
   },
   {
     id: 1200,
-    question:
-      "Predict the output of following C++ program involving sizeof(empty class)",
+    question: "Predict the output of following C++ program involving",
+    coding: "sizeof(empty class)",
     options: ["A non-zero value", "Compiler Error", "Runtime Error", "0"],
     correctOptionIndex: 0,
     isQuestionContainsCoding: true,
   },
   {
     id: 1201,
-    question:
-      "Predict the output of following program involving class A and class B",
+    question: "Predict the output of following program involving",
+    coding: "class A and class B",
     options: [
       "Compiler Error in show() because x is protected in class A",
       "Compiler Error in show() because y is private in class B",
@@ -10396,7 +10398,7 @@ export const questions: Question[] = [
   {
     id: 1206,
     question:
-      "Producer – Consumer problem, one of the classical problems of synchronization is also called",
+      "Producer - Consumer problem, one of the classical problems of synchronization is also called",
     options: [
       "Bounded Buffer Problem",
       "Readers Writers Problem",
@@ -10454,7 +10456,6 @@ export const questions: Question[] = [
       "new MyRunnable().start();",
     ],
     correctOptionIndex: 2,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1212,
@@ -11073,7 +11074,6 @@ export const questions: Question[] = [
       "The code does not implement a binary semaphore",
     ],
     correctOptionIndex: 0,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1280,
@@ -11099,8 +11099,9 @@ export const questions: Question[] = [
   },
   {
     id: 1282,
-    question:
-      'The code snippet if("Welcome".trim() == "Welcome".trim()) System.out.println("Equal"); else System.out.println("Not Equal"); will',
+    question: "The code snippet",
+    coding:
+      'if ("Welcome".trim() == "Welcome".trim())\n System.out.println("Equal"); \nelse\n System.out.println("Not Equal");\nwill',
     options: [
       'compile and display "Equal"',
       'compile and display "Not Equal"',
@@ -11225,8 +11226,9 @@ export const questions: Question[] = [
   },
   {
     id: 1296,
-    question:
-      'The following program is an example for class Student { int id; String name; void display(){ System.out.println(id+" "+name); } public static void main(String args[]){ Student s1=new Student(); Student s2=new Student(); s1.display(); s2.display(); }}',
+    question: "The following program is an example for",
+    coding:
+      'class Student { int id; String name; void display(){ System.out.println(id+" "+name); } public static void main(String args[]){ Student s1=new Student(); Student s2=new Student(); s1.display(); s2.display(); }}',
     options: [
       "Parameterized constructor",
       "Default Constructor",
@@ -11238,8 +11240,8 @@ export const questions: Question[] = [
   },
   {
     id: 1297,
-    question:
-      "The following two statements illustrate the difference between int x = 25; Integer y = new Integer(33);",
+    question: "The following two statements illustrate the difference between",
+    coding: "int x = 25; Integer y = new Integer(33);",
     options: [
       "Primitive data types",
       "primitive data type and an object of a wrapper class",
@@ -12155,7 +12157,6 @@ export const questions: Question[] = [
       "Print natural numbers 1 to 100",
     ],
     correctOptionIndex: 3,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1397,
@@ -12163,7 +12164,6 @@ export const questions: Question[] = [
       "What is the output of the Java program where arr[0].x=0, arr[1].x=1, arr[2].x=2 and show() prints only when x>1?",
     options: ["0", "1", "2", "0 1 2"],
     correctOptionIndex: 2,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1398,
@@ -12171,7 +12171,6 @@ export const questions: Question[] = [
       "What is the output of the C++ program with array {4,5,6,7} and pointer int *p = (arr + 1); cout << *p;",
     options: ["4", "5", "6", "7"],
     correctOptionIndex: 1,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1399,
@@ -12184,7 +12183,6 @@ export const questions: Question[] = [
       "1 2 3 4 5 6 7 8 9 10",
     ],
     correctOptionIndex: 0,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1400,
@@ -12192,7 +12190,6 @@ export const questions: Question[] = [
       "What is the output of the program calculating average of {5.5,10.1,11,12.8,56.9,2.5}?",
     options: ["16.34", "16.5555", "16.46666666666667", "16.4666666666"],
     correctOptionIndex: 2,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1401,
@@ -12200,12 +12197,11 @@ export const questions: Question[] = [
       "What is the output of the program converting double 295.04 and int 300 to byte?",
     options: ["38 43", "39 44", "295 300", "295.4 300.6"],
     correctOptionIndex: 1,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1402,
-    question:
-      "What is the output of program: int g=3; System.out.print(++g * 8);",
+    question: "What is the output of program:",
+    coding: "int g=3; System.out.print(++g * 8);",
     options: ["24", "25", "32", "33"],
     correctOptionIndex: 2,
     isQuestionContainsCoding: true,
@@ -12244,7 +12240,6 @@ export const questions: Question[] = [
       "None of these",
     ],
     correctOptionIndex: 0,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1406,
@@ -12263,7 +12258,6 @@ export const questions: Question[] = [
       "What is the value of 'number' after executing the while loop where number starts at 0 and increments until it reaches number2 = 12?",
     options: ["5", "12", "21", "13"],
     correctOptionIndex: 1,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1408,
@@ -12297,7 +12291,6 @@ export const questions: Question[] = [
       "What will be the output of the Java program where static int count = 100 and increment() increases it before printing b2.count?",
     options: ["100", "101", "Error in line 13", "0"],
     correctOptionIndex: 1,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1412,
@@ -12305,12 +12298,11 @@ export const questions: Question[] = [
       "What will be the output of the program where class A assigns x = x inside assign(100)?",
     options: ["10", "100", "0", "compile-time error"],
     correctOptionIndex: 0,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1413,
-    question:
-      'What will be the output of the sample code with try { return; } finally { System.out.println("Finally"); } ?',
+    question: "What will be the output of the sample code with",
+    coding: 'try { return; } finally { System.out.println("Finally"); }',
     options: [
       "Finally",
       "Compilation fails",
@@ -12331,12 +12323,12 @@ export const questions: Question[] = [
       "BC is printed before exiting with an error message",
     ],
     correctOptionIndex: 2,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1415,
-    question:
-      "What will be the output of the program with try { int y = 5/x; } catch(Exception e) ... catch(ArithmeticException ae) ... ?",
+    question: "What will be the output of the program with",
+    coding:
+      "try { int y = 5/x; } catch(Exception e) ... catch(ArithmeticException ae) ... ?",
     options: [
       "finished",
       "Exception",
@@ -12352,12 +12344,11 @@ export const questions: Question[] = [
       "What will be the output of the C++ program where array is {0,2,4,6,7,5,3} and result += billy[n] inside the loop?",
     options: ["25", "26", "27", "none of the above"],
     correctOptionIndex: 3,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1417,
-    question:
-      "What will be the output of the program where class B extends A and overrides method m1()?",
+    question: "What will be the output of the program where",
+    coding: "class B extends A and overrides method m1()?",
     options: ["runtime error", "A", "B", "compilation error"],
     correctOptionIndex: 3,
     isQuestionContainsCoding: true,
@@ -12373,7 +12364,6 @@ export const questions: Question[] = [
       "Run-time exception",
     ],
     correctOptionIndex: 1,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1419,
@@ -12472,7 +12462,6 @@ export const questions: Question[] = [
       "None of the above",
     ],
     correctOptionIndex: 1,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1431,
@@ -12655,7 +12644,6 @@ export const questions: Question[] = [
       "final void start(short stop);",
     ],
     correctOptionIndex: 0,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1452,
@@ -12726,8 +12714,8 @@ export const questions: Question[] = [
   },
   {
     id: 1460,
-    question:
-      "Which of the following is a valid class using the given code public interface A { public void showA(); }?",
+    question: "Which of the following is a valid class using the given code ",
+    coding: "public interface A { public void showA(); }",
     options: [
       "class B extends A { void showA(){} }",
       "class B implements A { abstract void showA(){} }",
@@ -12978,7 +12966,6 @@ export const questions: Question[] = [
       "Which of the following is correct way of importing an entire package 'pkg'?",
     options: ["import pkg.", "Import pkg.", "import pkg.*", "Import pkg.*"],
     correctOptionIndex: 2,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1490,
@@ -13037,7 +13024,6 @@ export const questions: Question[] = [
       "abstract class _Test {}",
     ],
     correctOptionIndex: 2,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1496,
@@ -13347,7 +13333,6 @@ export const questions: Question[] = [
       "Which of the methods should be implemented if any class implements the Runnable interface?",
     options: ["start()", "run()", "wait()", "notify() and notifyAll()"],
     correctOptionIndex: 1,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1529,
@@ -13405,7 +13390,6 @@ export const questions: Question[] = [
     question: "Which of these methods can randomize all elements in a list?",
     options: ["rand()", "randomize()", "shuffle()", "ambigous()"],
     correctOptionIndex: 2,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1537,
@@ -13465,7 +13449,6 @@ export const questions: Question[] = [
       "length operator",
     ],
     correctOptionIndex: 1,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1543,
@@ -13522,7 +13505,6 @@ export const questions: Question[] = [
       "put() and get()",
     ],
     correctOptionIndex: 2,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1549,
@@ -13652,7 +13634,6 @@ export const questions: Question[] = [
       "static import keyword",
     ],
     correctOptionIndex: 1,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1563,
@@ -13708,7 +13689,6 @@ export const questions: Question[] = [
     question: "_____ is a system call that causes the caller to block.",
     options: ["Await", "sleep", "Wakeup", "None of the above"],
     correctOptionIndex: 1,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1569,
@@ -13748,7 +13728,6 @@ export const questions: Question[] = [
       "_____ is a system call that runs an executable file into an existing process.",
     options: ["fork", "wait", "exec", "None of the above"],
     correctOptionIndex: 2,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1574,
@@ -13838,7 +13817,6 @@ export const questions: Question[] = [
       "_____ is a system call that returns the process ID of current process.",
     options: ["getpid", "wait", "getppid", "None of the above"],
     correctOptionIndex: 2,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1584,
@@ -13846,7 +13824,6 @@ export const questions: Question[] = [
       "_____ is a system call that returns the process ID of the parent of the current process.",
     options: ["getpid", "wait", "getppid", "None of the above"],
     correctOptionIndex: 2,
-    isQuestionContainsCoding: true,
   },
   {
     id: 1585,
@@ -13866,7 +13843,6 @@ export const questions: Question[] = [
       "_____ is a system call of OS that is used to create a new process?",
     options: ["Shell", "Kernel", "Fork", "Thread"],
     correctOptionIndex: 2,
-    isQuestionContainsCoding: true,
   },
 ];
 

@@ -1,8 +1,9 @@
 import { Button, Radio, RadioGroup } from "@headlessui/react";
 import type { Question } from "../data/questions";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/Card";
 import { ChevronLeftIcon } from "@heroicons/react/16/solid";
+import { prettify } from "../utils/utils";
 
 export const Test = ({
   questions,
@@ -16,8 +17,22 @@ export const Test = ({
     [key: number]: number;
   }>({});
   const [showResults, setShowResults] = useState(false);
-
+  const [formattedCode, setFormattedCode] = useState<string | null>(null);
   const currentQuestion = questions[currentQuestionIndex];
+  
+    useEffect(() => {
+      async function formatCode() {
+        if (currentQuestion.coding) {
+          const formatted = await prettify(currentQuestion.coding);
+          setFormattedCode(formatted);
+          console.log(formatted);
+        }
+      }
+  
+      formatCode();
+    }, [currentQuestion.coding]);
+
+ 
 
   const handleAnswerSelect = (answerIndex: number) => {
     setSelectedAnswers({
@@ -145,9 +160,20 @@ export const Test = ({
         </CardHeader>
         <CardContent className="space-y-6">
           {currentQuestion.isQuestionContainsCoding ? (
-            <pre className="text-lg">{currentQuestion.question}</pre>
+            currentQuestion.coding ? (
+              <>
+                <p>{currentQuestion.question}</p>
+                <pre className="text-sm sm:text-[8px]">
+                  <code className="text-xs sm:text-sm">
+                    {formattedCode ?? currentQuestion.coding}
+                  </code>
+                </pre>
+              </>
+            ) : (
+              <pre>{currentQuestion.question}</pre>
+            )
           ) : (
-            <p className="text-lg">{currentQuestion.question}</p>
+            <p>{currentQuestion.question}</p>
           )}
 
           <RadioGroup
